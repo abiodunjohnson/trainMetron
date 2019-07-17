@@ -1,0 +1,412 @@
+/*
+Blue color: #2196F3
+Green color: #28B446
+
+*/
+
+body {
+  
+    font-family: 'Ubuntu';
+
+  }
+
+.hero {
+    background-image: url(image/background.svg);
+    height: 90vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* #navbarNav {
+    margin-right: 25px;
+} */
+
+/* .navbar-nav {
+    margin-right: 100px;
+} */
+
+nav .navbar-nav li a {
+    color: white !important;
+}
+
+nav .navbar-nav li.active a {
+    color: white;
+    border: 3px solid #2196F3;
+    border-left: #2196F3;
+    border-right: #2196F3;
+    border-top: #2196F3;
+    
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    /* border-bottom: solid 1px red; */
+  }
+
+
+
+/* .nav-item {
+    border-bottom: solid 1px red;
+} */
+
+.btn-nav {
+    /* margin-right: 120px; */
+    margin-top: 19px;
+}
+
+.nav-btn {
+  color: #ffffff;
+  background-color: #2196F3;
+  padding: 05px 35px !important;
+  font-size: 16px !important;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}
+
+
+
+.nav-btn:hover {
+    background-color: #28B446;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: 6rem;
+    color: #ffffff;
+}
+
+
+.choose-trip {
+    border: 1px solid #ffffff;
+    height: 09rem;
+    width: 70rem;
+    margin-left: 80px;
+    margin-top: 4rem;
+    background-color: #ffffff;
+    
+  }
+
+  
+
+  #dropdownMenuButton {
+      background-color: #ffffff;
+      color: #000;
+      border: none;
+  }
+  
+
+  
+
+  .dropdown-block {
+    display: flex;
+    margin-bottom: 17px;
+  }
+
+  /* .dropdown-btn-container {
+    display: flex;
+  } */
+
+  .dropdown-btn-block {
+    display: flex;
+  }
+
+  
+
+  .dropdown {
+      margin-left: 10px;
+  }
+
+  .decre-btn {
+    width: 0px;
+    margin-right: 40px;
+    /* margin-right: 40px; */
+  }
+
+  button.incre-btn:focus {
+      outline: 0;
+  }
+
+  .incre-btn {
+      border: none;
+      color: transparent;
+      background-color: transparent;
+  }
+
+  button.decre-btn:focus {
+      outline: 0;
+  }
+  button.decre-btn {
+    background-color: #ffffff;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    border: none;
+    /* width: 20px;  */
+  }
+  
+  #count-adult{
+    margin-right: 19px;
+    width:21px;
+    border:none;
+  }
+  #count-child{
+    margin-right: 19px;
+    width:21px;
+    border:none;
+  }
+
+  .decre-img {
+    width: 28px;
+    margin-left: 0px;
+  }
+  
+  .incre-img {
+    width: 28px;
+    margin-left: 0px;
+  }
+
+  .dropdown-head {
+    width: 10rem;
+  }
+
+  .dropdown-head {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .form-inline {
+    margin-left: 10px;
+    margin-top: 15px;
+  }
+
+  .form-group {
+      margin-left: 12px;
+  }
+
+  .form-control {
+      border: none !important;
+  }
+
+  #form2 {
+      display: none;
+  }
+
+  .form3 {
+      display: flex;
+      width: 05px;
+  }
+
+  #from-grp {
+      display: flex;
+      margin-left: 07px;
+  }
+  
+  .form-btn {
+    background-color: #2196F3;
+    margin-left: 15px;
+    padding: 6px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  }
+
+  .form-btn-2 {
+    background-color: #2196F3;
+  margin-left: 10px;
+  padding: 6px 28px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+  
+  .form-btn:hover {
+    background-color: #28B446;
+  }
+  
+  .form-input {
+    padding: 6px 42px;
+  }
+  
+
+  
+/* TRIP */
+
+.trip-header {
+    text-align: center;
+    font-size: 32px;
+}
+
+.section {
+    padding-top: 05rem;
+    padding-bottom: 05rem;  
+}
+
+/* .section-trip {
+    
+} */
+
+.trip-box {
+    /* border: 1px solid #000; */
+    height: 16rem;
+    margin-top: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+
+.trip-photo {
+    text-align: center;
+}
+
+.trip-icon {
+    width: 2rem;
+    margin-top: 55px;
+}
+
+.inner-text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.trip-text {
+    font-size: 17px;
+}
+
+.trip-paragraph {
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+
+/* DESTIN */
+
+.card {
+    width: 25rem; 
+}
+
+
+
+.card-group {
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+    margin-left: 0rem;
+    margin-top: 40px;
+}
+
+.card-box {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dest-text {
+    color: #52616B;
+    font-size: 15px;
+    font-weight: 100px;
+    margin-top: 12px;
+}
+
+.dest-btn {
+    color: #ffffff;
+  background-color: #2196F3;
+  padding: 05px 15px !important;
+  font-size: 16px !important;
+  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12); */
+  border-radius: 4px;
+  border: none;
+  margin-left: 50px;
+}
+
+/* .destin-wrap {
+    border: 1px solid #000;
+    height: 12rem;
+    margin-top: 20px;
+    width: 35rem;
+    margin-left: 17rem;
+    display: flex;
+} */
+
+.inner-container {
+    display: flex;
+}
+
+
+/* WHY */
+
+
+.why-box {
+    /* border: 1px solid #000; */
+    height: 16rem;
+    margin-top: 30px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+
+.why-photo {
+    text-align: center;
+}
+
+.why-icon {
+    width: 3rem;
+    margin-top: 55px;
+}
+
+.why-content {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+.why-text {
+    font-size: 17px;
+}
+
+.why-paragraph {
+    font-size: 12px;
+    color: rgb(104, 104, 104);
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    height: 12rem;
+}
+
+.footer-container {
+    padding-top: 40px;
+}
+
+.logo-footer {
+    
+}
+
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-heading {
+    font-size: 25px;
+}
+
+.footer-paragraph {
+    font-size: 12px;
+}
+
+
+
+.form-control-lg{
+    border-radius: 0px !important;
+    width: 22rem; 
+}
+
+.footer-input {
+    border: 1px solid#2196F3;
+    padding: 11px 50px;
+    color: #ffffff;
+    background-color: #2196F3;
+}
+

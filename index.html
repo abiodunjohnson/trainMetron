@@ -55,17 +55,12 @@
                     <div class="row">
                          <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
                                 <div class="dropdown">
-                                    <!-- <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        One-way
-                                       
-                                    </button> -->
-                                   
-                                    <!-- <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> -->
+                                    
                                         <select id="inputState" onchange="show_return()" class="form-control">
                                             <option value="On">One-way</option>
                                             <option value="return">Return</option>
                                         </select>
-                                   <!-- </div> -->
+                                   
                                 </div>
                         </div>
                         <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
@@ -108,54 +103,54 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row form-block">
-                        <div class="well well lg-12 md-6 sm-4 xs-3" id="form1">
-                            <Form inline class="form-inline">
-                                <div class="md-3 sm-2 form-group">
-                                    
-                                    <Input type="text" name="email" id="exampleEmail" placeholder="From" class="form-input" />
-                                </div>
-                                <div class="md-3 sm-2 form-group">
-                                    
-                                    <Input type="text" name="password" id="examplePassword" placeholder="To" class="form-input" />
-                                </div>
-                                <div class="md-3 sm-2 form-group">
-                                    
-                                    <Input type="text"  id="datepicker" placeholder="Date of journey" class="form-input" />
-                                </div>
-                                <Button class="form-btn">Search</Button>
-                            </Form>
-                        </div>    
-                    </div>  
-                    <div class="row form-block">
-                        <div class="well well lg-12 md-6 sm-4 xs-3" id="form2">
-                            <Form inline class="form-inline">
-                                <div class="col form3">
-                                <div class="form-group col-sm-3">
-                                    
-                                    <Input type="text" name="email" id="exampleEmail" placeholder="From" class="form-input" id="form_block" />
-                                </div>
-                                <div class="form-group col-sm-3">
-                                    
-                                    <Input type="text" name="password" id="examplePassword" placeholder="To" class="form-input" id="form_block"/>
-                                </div>
-                                
-                                <div class=" col-sm-4" id="from-grp">
-                                    
-                                    <Input type="text"  id="datepickergo" placeholder="Date of journey" class="form-input-block" id="form_block" />
-                                    <Input type="text"  id="datepickerreturn" placeholder="Date of return" class="form-input-block" id="form_block" />
-                                </div>
-
-                                <Button class="form-btn-2">Search</Button>
+                    <form>
+                            <div class="form-row" id="form1">
+                                    <div class="form-group col-md-3">
+                                        
+                                        <input type="text" name="#" class="form-control" id="inputCity" placeholder="From">
+                                      </div>
+                                      <div class="form-group col-md-3">
+                                        
+                                        <input type="text" name="#" class="form-control" id="inputCity" placeholder="To">
+                                      </div>
+                                      <div class="form-group col-md-3" id="form-input">
+                                        
+                                        <input type="text" id="datepicker" class="form-control" placeholder="Date of journey" class="form-input">
+                                      </div>
+                    
+                                      <div class="form-group col-md-2">
+                                        <Button class="form-btn-2">Search</Button>
+                                        </div>
                             </div>
-                            
-                            </Form>
-                        </div>    
+                        <div class="form-row" id="form2">
+                            <div class="formm">
+                                <div class="form-group col-md-3">
+                                    
+                                    <input type="text" name="#" class="form-control" id="inputCity" placeholder="From">
+                                </div>
+                                <div class="form-group col-md-3">
+                                    
+                                    <input type="text"  class="form-control" id="inputCity" placeholder="To">
+                                </div>
+                                <div class="form-group col-md-4" id="form-grp">
+                                    
+                                    <input type="text" class="form-control" id="datepickergo" placeholder="Date of Journey">
+                                    
+                                    <input type="text" class="form-control" id="datepickerreturn" placeholder="Date of Return">
+                                </div>
+                
+                                
+                                <div class="form-group col-md-1">
+                                    <Button class="form-btn-2">Search</Button>
+                                </div>
+                            </div>    
                         </div>
-                </div>    
+                       
+                    </form>
+                   
+                        
+              </div>    
         </div>    
-
-
         
     </header>
     <!-- Header End -->

@@ -40,35 +40,6 @@ nav .navbar-nav li a {
     color: #000000;
 }
 
-/* .choose-trip {
-    border: 1px solid #ffffff;
-    height: 0;
-    width: 100%;
-    margin-left: 80px;
-    margin-top: 4rem;
-    background-color: #ffffff;
-    
-  }
-
-  
-
-  #dropdownMenuButton {
-      background-color: #ffffff;
-      color: #000;
-      border: none;
-  } */
-  
-
-  
-
-  /* .dropdown-block {
-    display: flex;
-    margin-bottom: 17px;
-  } */
-
-  /* .dropdown-btn-container {
-    display: flex;
-  } */
 
   .dropdown-btn-block {
     display: flex;
@@ -83,7 +54,7 @@ nav .navbar-nav li a {
   .decre-btn {
     width: 0px;
     margin-right: 40px;
-    /* margin-right: 40px; */
+    
   }
 
   button.incre-btn:focus {
@@ -111,10 +82,7 @@ nav .navbar-nav li a {
       display: none;
   }
 
-  .form3 {
-      display: flex;
-      width: 05px;
-  }
+ 
 
   #from-grp {
       display: flex;
@@ -150,7 +118,12 @@ nav .navbar-nav li a {
   }
   
 
+/* DETAIL */
 
+.section-detail {
+  background-color: #8A8989;
+  height: 20px;
+}
 
 
 /* FOOTER */
@@ -164,9 +137,6 @@ footer {
     padding-top: 40px;
 }
 
-.logo-footer {
-    
-}
 
 .footer-text {
     color: #ffffff;

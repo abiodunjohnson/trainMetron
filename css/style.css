@@ -4,9 +4,11 @@ Green color: #28B446
 
 */
 
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html,
 body {
   
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu'!important;
 
   }
 
@@ -18,13 +20,7 @@ body {
     background-position: center;
 }
 
-/* #navbarNav {
-    margin-right: 25px;
-} */
 
-/* .navbar-nav {
-    margin-right: 100px;
-} */
 
 nav .navbar-nav li a {
     color: white !important;
@@ -87,11 +83,17 @@ nav .navbar-nav li.active a {
     margin-left: 80px;
     margin-top: 4rem;
     background-color: #ffffff;
-    
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   }
 
+  .dropdown-select {
+      margin-top: 15px;
+  }
   
-
+form {
+    margin-top: 10px;
+}
   #dropdownMenuButton {
       background-color: #ffffff;
       color: #000;

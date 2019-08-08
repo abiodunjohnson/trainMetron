@@ -63,8 +63,6 @@ nav .navbar-nav li.active a {
   border: none;
 }
 
-
-
 .nav-btn:hover {
     background-color: #28B446;
 }
@@ -75,13 +73,19 @@ nav .navbar-nav li.active a {
     color: #ffffff;
 }
 
+.hero-paragraph {
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 100;
+    text-align: center;
+}
 
 .choose-trip {
     border: 1px solid #ffffff;
-    height: 09rem;
-    width: 70rem;
-    margin-left: 80px;
-    margin-top: 10rem;
+    height: 15rem;
+    width: 68rem;
+    margin-left: 10px;
+    margin-top: 08rem;
     background-color: #ffffff;
     border-radius: 4px;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
@@ -99,9 +103,6 @@ form {
       color: #000;
       border: none;
   }
-  
-
-  
 
   .dropdown-block {
     display: flex;
@@ -188,9 +189,9 @@ form {
     margin-top: 15px;
   } */
 
-  .form-group {
-      margin-left: 12px;
-  }
+  /* .form-group {
+      margin-left: 10px;
+  } */
 
   /* .form-control {
       border: none !important;
@@ -210,9 +211,22 @@ form {
       display: flex;
   }
 
-  #form-grp {
+  .image-form {
+
+    
+    z-index: 1;
+  }
+
+  /* #form-grp {
       display: flex;
-      
+      margin-left: 10px;
+  } */
+
+  .form-control {
+      width: 80% !important;
+  }
+  .form-heading {
+      margin-bottom: 03px;
   }
   
   .form-btn {
@@ -227,8 +241,9 @@ form {
 
   .form-btn-2 {
     background-color: #2196F3;
-  margin-left: 05px;
-  padding: 6px 28px;
+  /* margin-left: 03px; */
+  margin-top: 27px;
+  padding: 6px 113px;
   border: none;
   border-radius: 4px;
   color: #ffffff;
@@ -251,10 +266,11 @@ form {
 .trip-header {
     text-align: center;
     font-size: 32px;
+    margin-top: 170px;
 }
 
 .section {
-    padding-top: 05rem;
+    padding-top: 06rem;
     padding-bottom: 05rem;  
 }
 

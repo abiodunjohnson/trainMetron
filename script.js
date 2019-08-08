@@ -104,3 +104,35 @@ function incDec(){
 $('.dropdown-menu').click(function(e) {
     if (e.target.nodeName !== 'BUTTON') e.stopPropagation();
 });
+
+
+
+
+
+
+// auto fill 
+
+
+function autoFill() { 
+  if (document.getElementById('same').click()) 
+  { 
+    // window.location='book.html';
+    document.getElementById('oneTo').value=document. 
+             getElementById('one').value; 
+    document.getElementById('inputCityFrom2').value=document. 
+             getElementById('inputCityFrom').value 
+  document.getElementById('inputCityTo2').value=document. 
+             getElementById('inputCityTo').value 
+document.getElementById('datepicker2').value=document. 
+             getElementById('datepicker').value 
+
+            
+  } 
+}
+      
+//   else
+//   { 
+//     document.getElementById('secondaryaddress').value=""; 
+//     document.getElementById('secondaryzip').value=""; 
+//   } 
+// } 

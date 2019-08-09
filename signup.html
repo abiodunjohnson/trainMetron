@@ -9,15 +9,22 @@
 </head>
 <body>
    
-<div class="row">
+<div class="row ">
 <div class="col1">
-<img src="Group.svg" alt="static-image">
+    <a class="navbar-brand" href="#">
+        <img src="asset/images/metron.black.svg" class="logo" alt="Logo">
+    </a>
+<img src="Group.svg" class="static-image" alt="static-image">
 
 
 </div>
 <div class="col2">
     <form id="signupform">
-    <h2>Sign up</h2>
+      <div class="sign-body">
+          <a class="sign-links" href="#"><h2 class="signup-heading">Sign up</h2></a>
+          <h2 class="sign-change">or</h2>
+          <a class="sign-links" href="#"><h2 class="signin-heading">Sign in </h2></a>
+    </div>
     <label>FULL NAME</label>
     <input class="fullname" type="text" placeholder="Enter your fullname" id="signupfullname" required>
     <br>
@@ -41,6 +48,7 @@
     </div>
 
 </div>
+
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-auth.js"></script>

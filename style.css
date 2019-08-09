@@ -116,6 +116,8 @@ margin-bottom:21px;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-size: 15px;
+    font-weight: 400;
   }
   
   /* Hide the browser's default checkbox */
@@ -135,6 +137,7 @@ margin-bottom:21px;
     height: 25px;
     width: 25px;
     background-color: #eee;
+    
   }
   
   /* On mouse-over, add a grey background color */
@@ -145,6 +148,7 @@ margin-bottom:21px;
   /* When the checkbox is checked, add a blue background */
   .container input:checked ~ .checkmark {
     background-color: #2196F3;
+    
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
@@ -152,6 +156,7 @@ margin-bottom:21px;
     content: "";
     position: absolute;
     display: none;
+   
   }
   
   /* Show the checkmark when checked */
@@ -178,50 +183,95 @@ margin-bottom:21px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     color:white;
+    margin-top: 15px;
   }
   .or{
     position: absolute;
     left: 44.64%;
     right: 47.42%;
     font-weight: normal;
-font-size: 16px;
-line-height: 18px;
-    bottom: 25.38%
+    font-size: 16px;
+     line-height: 18px;
+    bottom: 22.38%;
+    
   }
   .button1{
     position: absolute;
     width: 223px;
     height: 40px;
     left: 4px;
-    bottom: 20.38%;
+    bottom: 15.38%;
     border: 1px solid #C9D6DF;
     box-sizing: border-box;
     border-radius: 4px;
+    margin-top: 40px;
   }
   .button2{
     position: absolute;
     width: 223px;
     height: 40px;
     right: 44px;
-    bottom: 20.38%;
+    bottom: 15.38%;
     border: 1px solid #C9D6DF;
     box-sizing: border-box;
     border-radius: 4px;
+    /* margin-top: 40px; */
   }
   .signup-google{
     position: absolute;
       bottom:-5px;
-      right:3px;
+      right: 40px;
+      color: #000000;
+      font-size: 14px;
   }
   .signup-facebook{
     position: absolute;
       bottom:-5px;
-      right:3px;
+      right: 30px;
+      color: #000000;
+      font-size: 14px;
+  }
+  .full-name {
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 300;
+  }
+
+  .fullname {
+    margin-top: 10px;
+  }
+
+  .e-mail {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .email {
+    margin-top: 0px;
+  }
+
+  .pass-word {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .password {
+    margin-top: 10px;
   }
   #fb{
     height:39px;
+    width: 25px;
+    margin-left: 10px;
+  }
+  .sign-label {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
     
   }
+  
   .switch{
     position: absolute;
     bottom:23px;
@@ -230,9 +280,10 @@ line-height: 18px;
   }
   .google{
     height:69px;
-    /* position:absolute; */
+    position:absolute;
     top:-14px;
-    left:-10px;
+    left:10px;
+    width: 25px;
   }
  .col2-signin{
     /* position: absolute; */

@@ -345,7 +345,55 @@ margin-bottom:21px;
  .remove{
   text-decoration:none;
  }
-
+.signin-or{
+  position: relative;
+  top:5px;
+  left:220px;
+}
+.google2{
+  position: relative;
+  top:41px;
+  left:-28px;
+  width:20px;
+  border-radius: 4px;
+  border: 1px solid #C9D6DF;
+  padding-right: 170px;
+  padding-left:5px;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+.signin-button1{
+  position: relative;
+  top:-17px;
+  left:35px;
+}
+#fb2{
+  position: relative;
+  top:37px;
+  left:-30px;
+  width:20px;
+  border-radius: 4px;
+  border: 1px solid #C9D6DF;
+  padding-right: 170px;
+  padding-left:5px;
+  padding-top:10px;
+  padding-bottom:5px;
+  /* border: 1px solid #C9D6DF;
+  box-sizing: border-box;
+  padding-right:170px; */
+ 
+}
+.signin-button2{
+  position: relative;
+  top:-105px;
+  left:290px;
+  
+}
+.switch-signin{
+  position: relative;
+  top:-100px;
+  left:110px;
+}
 
 
  /* Media query begins here */

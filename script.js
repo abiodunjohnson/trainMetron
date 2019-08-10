@@ -107,29 +107,39 @@ $('.dropdown-menu').click(function(e) {
 
 
 
+//autofill
+
+// document.getElementById('same').addEventListener("click",function(){ 
+//     if(document.getElementById('same')){
+//        window.location="book.html";
+//     var inputCityFrom=document.getElementById("inputCityFrom").value;
+//     localStorage.setItem('inputCityFrom',inputCityFrom);
+    
+//     document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
+//     }    
+// });
+
+
+
+// document.getElementById('same').addEventListener("click",function(){ 
+   
+//     var inputCityFrom=document.getElementById.JSON.Parse(("inputCityFrom")).value;
+//     localStorage.setItem ('inputCityFrom',inputCityFrom);
+//     document.getElementById('inputCityTo').value= localStorage.getItem.JSON.stringify(('inputCityFrom'));
+// });
+
+// function passValue (){
+//     var input1=document.getElementById("inputCityFrom").value;
+//     localStorage.setItem("textvalue", input1);
+//     return false;
+// }
+
+// document.getElementById("inputCityFrom2").innerHTML=localStorage.getItem("textvalue");
 
 
 
 // auto fill 
 
-
-function autoFill() { 
-  if (document.getElementById('same').click()) 
-  { 
-    // window.location='book.html';
-    document.getElementById('oneTo').value=document. 
-             getElementById('one').value; 
-    document.getElementById('inputCityFrom2').value=document. 
-             getElementById('inputCityFrom').value 
-  document.getElementById('inputCityTo2').value=document. 
-             getElementById('inputCityTo').value 
-document.getElementById('datepicker2').value=document. 
-             getElementById('datepicker').value 
-
-            
-  } 
-}
-      
 //   else
 //   { 
 //     document.getElementById('secondaryaddress').value=""; 

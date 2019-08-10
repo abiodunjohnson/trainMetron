@@ -83,7 +83,7 @@ nav .navbar-nav li.active a {
 .choose-trip {
     border: 1px solid #ffffff;
     height: 15rem;
-    width: 68rem;
+    width: 58rem;
     margin-left: 10px;
     margin-top: 08rem;
     background-color: #ffffff;
@@ -213,8 +213,8 @@ form {
 
   .image-form {
 
-    
-    z-index: 1;
+    margin-left: 50px;
+    position: relative;
   }
 
   /* #form-grp {
@@ -224,6 +224,9 @@ form {
 
   .form-control {
       width: 80% !important;
+      position: absolute;
+
+      margin-left: 40px;
   }
   .form-heading {
       margin-bottom: 03px;

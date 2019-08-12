@@ -21,7 +21,7 @@ auth.createUserWithEmailAndPassword(email, password).then( cred=> {
 
 //login
 
-    
+  
 const signinForm= document.querySelector("#signinform");
 
 signinForm.addEventListener('submit', (e)=>{
@@ -31,22 +31,26 @@ signinForm.addEventListener('submit', (e)=>{
    
     const email= signinForm['login-email'].value;
     const password=signinForm['login-password'].value;
-
+ 
     auth.signInWithEmailAndPassword(email,password).then(cred=> {
         console.log(cred.user);
        
         // signinForm.reset();
-        if (cred.user==='auth/wrong-password') {
-          alert("error");
-            
-        } else {
+        if (cred.user) {
             window.location='index2.html';
-        }
+            signinForm.querySelector(".error").innerHTML="";
+        } 
      
-    })
+    }).catch
+    (err=>{
+        signinForm.querySelector(".error").innerHTML=err.message;
+ 
+    });     
+    
 
   
-})
+});
+
 
 
 // firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {

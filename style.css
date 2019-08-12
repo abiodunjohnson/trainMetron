@@ -405,6 +405,11 @@ margin-bottom:21px;
   left:110px;
 }
 
+.error{
+  position:relative;
+  color:red;
+  top:100px;
+}
 
  /* Media query begins here */
  @media(max-width:425px){

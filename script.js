@@ -21,6 +21,14 @@ function show_return() {
     return false
 }
 
+function show_dropdown() {
+    var select_box =('#inputPassengers').val();
+    if (select_box == 'dropdown')
+    {
+        $('#dropdown2').show();
+    }
+}
+
 
 // DATEPICKER
 

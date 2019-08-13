@@ -415,6 +415,10 @@ margin-bottom:21px;
   color:red;
   top:100px;
 }
+.dropdown:hover{
+  background:white;
+  border:none;
+}
 
  /* Media query begins here */
  @media(max-width:425px){

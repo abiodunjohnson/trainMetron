@@ -107,13 +107,13 @@
 
 
 
-document.getElementById('same').addEventListener("click",function(){ 
+// document.getElementById('same').addEventListener("click",function(){ 
 
-if(document.getElementById('same')){
+// if(document.getElementById('same')){
      
-    var inputCityFrom=document.getElementById("inputCityFrom").value;
-    localStorage.setItem('inputCityFrom',inputCityFrom);
-    window.document.location="./book.html"; 
-    document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
-};
-});
+//     var inputCityFrom=document.getElementById("inputCityFrom").value;
+//     localStorage.setItem('inputCityFrom',inputCityFrom);
+//     window.document.location="./book.html"; 
+//     document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
+// };
+// });

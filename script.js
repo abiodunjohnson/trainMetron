@@ -2,6 +2,21 @@ $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
 
+function rmv(){
+    document.querySelector("#input-a").addEventListener("input", function (){
+        if($("#input-a").value !== ""){
+            $("#img_form").hide();
+            document.querySelector("#img_form").style.display = "none";
+        } else if($("#input-a").value === ""){
+            document.querySelector("#img_form").style.display = "inline";
+        }
+    })
+}
+rmv();
+if($("#input-a").value === ""){
+    document.querySelector("#img_form").style.display = "inline";
+}
+
 
 // SHOW RETURN
 

@@ -32,22 +32,53 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="book.html">Print ticket</a>
+                            </li>
+                            <li class="nav-item">
+                             
+                            </li>
+                            
                         <div class="btn-nav">
-                        <a href="index.html"> <Button size="sm" id ="log-out" class="nav-btn">Log out</Button></a>
+                      
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                                        aria-haspopup="true" aria-expanded="false">
+                                        <img src="asset/images/logout-icon.svg" class="logout-icon" alt="icon"> 
+                                </button>
+                                <div class="dropdown-menu" >
+                                    <a href="index.html" id="log-out">Log out</a>
+                                  <a class="dropdown-item" href="#!">Another action</a>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </nav>
+
+                <div class="row">
+                    <div class="col">
+                        <h1 class="hero-text">Online Train ticket booking made easy!</h1>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col">
+                            <p class="hero-paragraph">Find cheap train tickets and pay securedly.</p>
+                        </div>
+                    </div>
             </div>
             
-
+            <div class="container">
                 <div class="choose-trip lg-12 md-6 sm-4 xs-3">
                     <div class="row dropdown-select">
                         <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
                                 <div class="dropdown">
                                     
                                         <select id="inputState" onchange="show_return()" class="form-control">
-                                            <option id="one" value="On">One-way</option>
+                                            <option value="On">One-way</option>
                                             <option value="return">Return</option>
                                         </select>
                                    
@@ -56,63 +87,87 @@
                         <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   <span id="total"></span> Passenger
+                                   <!-- <span id="total"></span> Passenger -->
                                 </button>
-                                <div class="dropdown-box ">
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <div class="row-12 dropdown-block">
-                                            <div class="col-6">
-                                                <h4 class="dropdown-head">Adult(18+)</h4>
-                                            </div>    
-                                            <div class="col-6 dropdown-btn-container">
-                                                <div class="dropdown-btn-block">
-                                                    <button class="decre-btn" id="adult-dec"><img class="decre-img" onclick= "decreaseAdult();" src="asset/images/Decrebtn.svg" /></button>
-                                                
-                                                    <input type="text" id="count-adult" value="1"></input>   
-                                                        
-                                                    <button class="incre-btn" id="adult-inc" ><img class="incre-img" onclick= "increaseAdult();" src="asset/images/Increbtn.svg" /></button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <hr></hr>
-                                        <div class="row-12 dropdown-block">
-                                                <div class="col-6">
-                                                    <h4 class="dropdown-head">Children(0-17)</h4>
-                                                </div>    
-                                                <div class="col-6 dropdown-btn-container">
-                                                    <div class="dropdown-btn-block">
-                                                        <button type="button" class="decre-btn" id="child-dec" id="btnincre"><img class="decre-img" onclick= "decreaseChildren();" src="asset/images/Decrebtn.svg" /></button>
-                                                        <input type="text" id="count-child" value="0"></input>    
-                                                            
-                                                        <button class="incre-btn" id="child-inc"><img class="incre-img"onclick= "increaseChildren();" src="asset/images/Increbtn.svg" /></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    </div>
-                                </div>
+                               
+                             
                             </div>
                         </div>
                     </div>
                     <form>
-                            <div class="form-row" id="form1" >
-                              
-                                    <div class="form-group col-md-3">
-                                        
-                                        <input type="text" name="#" value="" class="form-control" id="inputCityFrom" placeholder="From">
+                            <div class="form-row" id="form1">
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <p class="form-heading">From:</p>
+                                        <input type="text" name="#" class="form-control" id="inputCity">
+                                        <span><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                       </div>
-                                      <div class="form-group col-md-3">
-                                        
-                                        <input type="text" name="#" class="form-control" id="inputCityTo" placeholder="To">
+                                      <div class="form-group col-md-4">
+                                            <p class="form-heading">To where:</p>
+                                        <input type="text" name="#" class="form-control" id="inputCity">
+                                        <span><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                       </div>
-                                      <div class="form-group col-md-3" id="form-input">
+
+                                      <div class="form-group col-md-4">
+                                            <p class="form-heading">No. of Passengers:</p>
+                                        <input class="form-control" id="inputPassengers">
+                                        <span><img src="asset/icons/Group.svg"  class="image-form"></span>
+                                        <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
+                                            <div class="dropdown" id="dropdown2">
+                                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                   <!-- <span id="total"></span> Passenger -->
+                                                </button>
+                                                <div class="dropdown-box ">
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        <div class="row-12 dropdown-block">
+                                                            <div class="col-6">
+                                                                <h4 class="dropdown-head">Adult(18+)</h4>
+                                                            </div>    
+                                                            <div class="col-6 dropdown-btn-container">
+                                                                <div class="dropdown-btn-block">
+                                                                    <button class="decre-btn" id="adult-dec"><img class="decre-img" onclick= "decreaseAdult();" src="asset/images/Decrebtn.svg" /></button>
+                                                                
+                                                                    <input type="text" id="count-adult" value="1"></input>   
+                                                                        
+                                                                    <button class="incre-btn" id="adult-inc" ><img class="incre-img" onclick= "increaseAdult();" src="asset/images/Increbtn.svg" /></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr></hr>
+                                                        <div class="row-12 dropdown-block">
+                                                                <div class="col-6">
+                                                                    <h4 class="dropdown-head">Children(0-17)</h4>
+                                                                </div>    
+                                                                <div class="col-6 dropdown-btn-container">
+                                                                    <div class="dropdown-btn-block">
+                                                                        <button type="button" class="decre-btn" id="child-dec" id="btnincre"><img class="decre-img" onclick= "decreaseChildren();" src="asset/images/Decrebtn.svg" /></button>
+                                                                        <input type="text" id="count-child" value="0"></input>    
+                                                                            
+                                                                        <button class="incre-btn" id="child-inc"><img class="incre-img"onclick= "increaseChildren();" src="asset/images/Increbtn.svg" /></button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="form-group col-md-4" id="form-input">
+                                            <p class="form-heading">Departure time:</p>
+                                        <input id="datepicker" class="form-control" class="form-input">
                                         
-                                        <input type="text" id="datepicker" class="form-control" placeholder="Date of journey" class="form-input">
+                                        <span><img src="asset/icons/Group6.svg"  class="image-form"></span>
+                                      </div>
+                                      <div class="form-group col-md-4">
+                                            <p class="form-heading">Seat class:</p>
+                                        <input class="form-control" >
+                                        <span><img src="asset/icons/Vector.svg"  class="image-form"></span>
                                       </div>
                     
-                                      <div class="form-group col-md-2">
-                                       <a type="submit" value="clss"  class="form-btn-2" id="same" >Search</a> 
+                                      <div class="form-group col-md-4">
+                                        <Button class="form-btn-2">Search train tickets</Button>
                                         </div>
-                                      
+                                    </div>
                             </div>
                         <div class="form-row" id="form2">
                             <div class="formm">
@@ -133,7 +188,7 @@
                 
                                 
                                 <div class="form-group col-md-1">
-                                    <Button class="form-btn-2">Search</Button>
+                                    <Button class="form-btn-2">Search train tickets</Button>
                                 </div>
                             </div>    
                         </div>
@@ -142,6 +197,7 @@
                    
                         
               </div>    
+              </div>
         </div>    
         
     </header>
@@ -257,7 +313,7 @@
                                         </div>
                                         <hr></hr>
                                         <div class="card-box">
-                                            <h5 class="dest-text">Lagos to Kaduna</h5>
+                                            <h5 class="dest-text">Lagos to Kebbi</h5>
                                             <Button size="sm" class="dest-btn">Book Now</Button>
                                         </div>
                                         <hr></hr>
@@ -365,44 +421,10 @@
         crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="main.js"></script>
+        <script src="/main.js"></script>
 
-           <script src="authlog.js"></script>
              
         <script src="script.js"></script>
-        
-        
-
-
-        
-              <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-firestore.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#config-web-app -->
-
-<script>
-  // Your web app's Firebase configuration
-  var firebaseConfig = {
-    apiKey: "AIzaSyCxg3bTVPkVCMHCmANREUtlZ_Hc-lg5bUg",
-    authDomain: "metron-804b3.firebaseapp.com",
-    databaseURL: "https://metron-804b3.firebaseio.com",
-    projectId: "metron-804b3",
-    
-    appId: "1:554771170726:web:f95b3d446b057119"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  // make auth and firestore references
-  const auth=firebase.auth();
-  const db=firebase.firestore();
-
-  // update firestore settings
-//   db.settings ({timestampsInSnapshots:true});
-</script>
- <script src="authlog.js"></script>
         
 </body>
 

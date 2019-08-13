@@ -403,12 +403,21 @@ margin-bottom:21px;
   position: relative;
   top:80px;
   left:110px;
+ 
+}
+.switch-signin a{
+  text-decoration: none;
+  color:blue;
 }
 
 .error{
   position:relative;
   color:red;
   top:100px;
+}
+.dropdown:hover{
+  background:white;
+  border:none;
 }
 
  /* Media query begins here */

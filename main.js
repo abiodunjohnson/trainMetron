@@ -111,18 +111,18 @@
 
 // if(document.getElementById('same')){
      
-<<<<<<< HEAD
+
 //     var inputCityFrom=document.getElementById("inputCityFrom").value;
 //     localStorage.setItem('inputCityFrom',inputCityFrom);
 //     window.document.location="./book.html"; 
 //     document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
 // };
 // });
-=======
-    var inputCityFrom=document.getElementById("inputCityFrom").value;
-    localStorage.setItem('inputCityFrom',inputCityFrom);
-    window.document.location="book.html"; 
-    document.getElementById('inputCityTo').value= localStorage.getItem('inputCityFrom');
-};
-});
->>>>>>> 33e7aaf7a4e7be0455ce97a4e6885263cf411eed
+
+//     var inputCityFrom=document.getElementById("inputCityFrom").value;
+//     localStorage.setItem('inputCityFrom',inputCityFrom);
+//     window.document.location="book.html"; 
+//     document.getElementById('inputCityTo').value= localStorage.getItem('inputCityFrom');
+// };
+// });
+

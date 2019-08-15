@@ -44,6 +44,10 @@ function show_dropdown() {
     }
 }
 
+// $(document).ready(function(){
+//     $('input[option]:disabled').css('border', '3px solid red');
+// })
+
 
 // DATEPICKER
 

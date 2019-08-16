@@ -121,13 +121,13 @@ form {
     display: flex;
   }
 
-  .one-way {
+  /* .one-way {
       border: 1px solid #0084F8;
       background-color: #0084F8;
       text-align: center;
       width: 80px;
-      /* padding: 3px 03px; */
-  }
+      padding: 3px 03px;
+  } */
 
   .dropdown {
       margin-left: 10px;

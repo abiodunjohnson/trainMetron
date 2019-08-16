@@ -50,6 +50,24 @@
         height: 180vh;
        }
 
+       .choose-trip {
+        border: 1px solid #ffffff;
+        height: 27rem;
+        width: 20rem;
+        margin-left: 10px;
+        margin-top: 08rem;
+        background-color: #ffffff;
+        
+      }
+
+      .form-control {
+        width: 75% !important;
+        position: absolute;
+        /* margin-left: 10px; */
+  
+        /* margin-left: 28px; */
+    }
+
     .footer-logo {
         text-align: center
     }

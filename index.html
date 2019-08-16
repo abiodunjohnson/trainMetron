@@ -182,7 +182,7 @@
                                                 </div>            
                                                   <div class="form-group col-md-4" id="form-input">
                                                     <p class="form-heading">Return time:</p>
-                                                    <input id="datepicker" class="form-control" class="form-input">
+                                                    <input id="datepickerreturn" class="form-control" class="form-input">
                                                     <span><img src="asset/icons/Group6.svg"  class="image-form"></span>
                                                   </div> 
                                                   <div class="form-group col-md-4">
@@ -190,8 +190,8 @@
                                                     <input type='text' list="seats" class="form-control" id="input-a" >
                                                     
                                                     <datalist id="seats">
-                                                        <option selected>POSITION</option>
-                                                        <option>Aisle</option>
+                                                        <!-- <div class="postion">POSITION</div> -->
+                                                        <option><input type="radio" value="Aisle"></option>
                                                         <option>Window</option>
                                                         <option>Any</option>
                                                       </datalist>
@@ -306,59 +306,126 @@
                     <h1 class="trip-header">Top Destinations to choose from</h1>
                 </div>
             </div>
-            
-            <div class="row">
-                    <div class="col lg-08 md-06 sm-04 outer-container">
-                    <div class="card-group">
-                        <div class="card">
-                                <div class="card-body">
-                                    <div class="card-box">
-                                        <h5 class="dest-text">Lagos to Ibadan</h5>
-                                        <Button size="sm" class="dest-btn">Book Now</Button>
-                                    </div>
-                                    <hr></hr>
-                                    <div class="card-box">
-                                        <h5 class="dest-text">Lagos to Minna</h5>
-                                        <Button size="sm" class="dest-btn">Book Now</Button>
-                                    </div>
-                                    <hr></hr>
-                                    <div class="card-box">
-                                        <h5 class="dest-text">Lagos to Zaria</h5>
-                                        <Button size="sm" class="dest-btn">Book Now</Button>
-                                    </div>
-                                    <hr></hr>
-                                    <div class="card-box">
-                                        <h5 class="dest-text">Lagos to Kano</h5>
-                                        <Button size="sm" class="dest-btn">Book Now</Button>
-                                    </div>
-                                </div>
+            <div class="top-card">
+                <div class="row">
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <p class="dest-detail"><small class="text-muted">Lagos to Ibadan</small></p>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N500/N800</p>
                         </div>
-                                  
-                                
-                                <div class="card">
-                                  <div class="card-body">
-                                        <div class="card-box">
-                                            <h5 class="dest-text">Lagos to Jebba</h5>
-                                            <Button size="sm" class="dest-btn">Book Now</Button>
-                                        </div>
-                                        <hr></hr>
-                                       <div class="card-box">
-                                            <h5 class="dest-text">Lagos to Mokwa</h5>
-                                            <Button size="sm" class="dest-btn">Book Now</Button>
-                                        </div>
-                                        <hr></hr>
-                                        <div class="card-box">
-                                            <h5 class="dest-text">Lagos to Kebbi</h5>
-                                            <Button size="sm" class="dest-btn">Book Now</Button>
-                                        </div>
-                                        <hr></hr>
-                                        <div class="card-box">
-                                            <h5 class="dest-text">Lagos to Kano</h5>
-                                            <Button size="sm" class="dest-btn">Book Now</Button>
-                                        </div>
-                                  </div>
-                            
+                        <div class="top-btn">
+                                <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="vl"></div>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <div class="top-detail">
+                            <p class="dest-detail"><small class="text-muted">Lagos to Jebba</small></p>
+                            </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N1,250/N2,000</p>
+                        </div>
+                        <div class="top-btn">
+                            <Button size="sm" class="dest-btn">Book Now</Button>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <hr>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                                <div class="top-detail">
+                                    <p class="dest-detail"><small class="text-muted">Lagos to Abeokuta</small></p>
                                 </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N300/N400</p>
+                        </div>
+                        <div class="top-btn">
+                            <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="vl"></div>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <div class="top-detail">
+                                <p class="dest-detail"><small class="text-muted">Lagos to Minna</small></p>
+                            </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N1,900/N3000</p>
+                        </div>
+                        <div class="top-btn">
+                            <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                                <div class="top-detail">
+                                    <p class="dest-detail"><small class="text-muted">Lagos to Ilorin</small></p>
+                                </div>
+                            <div class="dest-inner">     
+                                <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                                <p class="dest-amt">N1,050/N1,600</p>
+                            </div>
+                            <div class="top-btn">
+                                <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="vl"></div>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <div class="top-detail">
+                                <p class="dest-detail"><small class="text-muted">Lagos to Kaduna</small></p>
+                            </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N2,300/N3,000</p>
+                        </div>
+                        <div class="top-btn">
+                                <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <div class="top-detail">
+                                <p class="dest-detail"><small class="text-muted">Lagos to Abuja</small></p>
+                            </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N1,500/N2,500</p>
+                        </div>
+                        <div class="top-btn">
+                                <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vl"></div>
+                    <div class="col-6 top-all">
+                        <div class="top-body">
+                            <div class="top-detail">
+                              <p class="dest-detail"><small class="text-muted">Lagos to Kano</small></p>
+                            </div>
+                        <div class="dest-inner">     
+                            <p class="card-text"><small class="text-muted">Economy/First class</small></p>
+                            <p class="dest-amt">N2,900/N4,500</p>
+                        </div>
+                        <div class="top-btn">
+                                <Button size="sm" class="dest-btn">Book Now</Button>
+                            </div>
+                        </div> 
                     </div>
                 </div>
             </div>

@@ -196,6 +196,9 @@ form {
     appearance: none;
     -moz-appearance:none; /* Firefox */
     -webkit-appearance:none;
+    border: none;
+    margin-left: 30px;
+    margin-top: 07px;
   }
 
   button#dropdownMenuButton {
@@ -266,8 +269,9 @@ form {
   
   .form-btn {
     background-color: #2196F3;
-    margin-left: 15px;
-    padding: 6px 80px;
+    margin-left: 30px;
+    margin-top: 27px;
+    padding: 6px 46px;
     border: none;
     border-radius: 4px;
     color: #ffffff;
@@ -278,7 +282,7 @@ form {
     background-color: #2196F3;
   margin-left: 30px;
   margin-top: 27px;
-  padding: 6px 45px;
+  padding: 6px 65px;
   border: none;
   border-radius: 4px;
   color: #ffffff;

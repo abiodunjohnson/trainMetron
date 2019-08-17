@@ -4,12 +4,33 @@
 @media (max-width: 992px) {
     .choose-trip {
         border: 1px solid #ffffff;
-        height: 06rem;
-        width: 60rem;
-        /* margin-left: -2rem; */
-        margin-top: 6rem;
-
+        height: 14rem;
+        width: 50rem;
+        margin-right: 02px;
+        margin-top: 3rem;
       }
+
+      .form-btn {
+        background-color: #2196F3;
+      margin-left: 30px;
+      margin-top: 27px;
+      padding: 6px 40px;
+    }
+
+      .top-body {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .trip-header {
+        padding-top: 02rem;
+        padding-bottom: 02rem;
+        margin-top: 30px;
+    }
 
       .footer-logo {
         text-align: center
@@ -23,14 +44,67 @@
     .footer-container {
         padding-top: 0px;
     }
+
+    .form-right {
+        margin-left: 90px;
+    }
+
+    .form-control {
+        width: 70% !important;
+        position: absolute; 
+     }
 }
 
 
 @media (max-width: 768px) {
     
+    .hero{
+        height: 130vh;
+       }
 
-      .footer-logo {
-        text-align: center
+       .trip-header-top {
+        margin-top: 320px;
+    }
+
+    .choose-trip {
+        border: 1px solid #ffffff;
+        height: 30rem;
+        width: 30rem;
+        margin-left: 10px;
+        margin-top: 04rem;
+        background-color: #ffffff;
+        align-content: center;
+      }
+
+      .top-body {
+        text-align: center;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .trip-header {
+        padding-top: 02rem;
+        padding-bottom: 02rem;
+        margin-top: 25px;
+    }
+    
+
+    .form-control {
+       width: 75% !important;
+       position: absolute; 
+    }
+
+    .footer-logo {
+        text-align: center;
+
+    }
+
+    .logo-footer {
+        width: 100px;
+        margin-top: 20px;
     }
 
     .footer-text {
@@ -41,21 +115,34 @@
     .footer-container {
         padding-top: 0px;
     }
+
+    .form-control-lg{
+        width: 18rem; 
+    }
+
+    .foot {
+        padding-top: 0px;
+    }
+
+    .form-right {
+        margin-left: 50px;
+    }
+
 }
 
 
 @media (max-width: 576px) {
     .hero{
         
-        height: 180vh;
+        height: 130vh;
        }
 
        .choose-trip {
         border: 1px solid #ffffff;
-        height: 27rem;
-        width: 20rem;
+        height: 32rem;
+        width: 25rem;
         margin-left: 10px;
-        margin-top: 08rem;
+        margin-top: 03rem;
         background-color: #ffffff;
         align-content: center;
       }
@@ -77,6 +164,22 @@
         padding-left: 10px;
     }
 
+    .trip-header-top {
+        
+        margin-top: 220px;
+        margin-bottom: 40px;
+    }
+
+    .trip-header {
+    padding-top: 02rem;
+    padding-bottom: 02rem;
+    margin-top: 50px;
+}
+
+    #formbtn {
+        text-align: center;
+    }
+
     .dest-btn {
         color: #ffffff;
       background-color: #2196F3;
@@ -85,30 +188,44 @@
       box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
       border-radius: 4px;
       border: none;
-      
+
     }
 
     .top-all {
         padding: 0 10px !important;
     }
 
+    
+
     .footer-logo {
-        text-align: center
+        text-align: center;
+        
     }
 
+    .logo-footer {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    .footer-heading {
+        font-size: 20px;
+    }
     .footer-text {
         text-align: center;
         padding-top: 20px;
     }
 
     .footer-input {
-        margin-left: 20px;
+        margin-left: 0px;
     }
 
     .footer-container {
         padding-top: 0px;
     }
 
+.form-control-lg{
+    width: 18rem; 
+}
     .foot {
         padding-top: 0px;
     }

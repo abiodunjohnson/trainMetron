@@ -11,8 +11,11 @@ body {
     position: absolute;
     height: 100px;
     background: #FFFFFF;
-    top: -9px;
-    
+    top: -9px;  
+}
+.print{
+    position: relative;
+    left:23px;
 }
 hr {
     margin-top: 1rem;

@@ -90,7 +90,18 @@ nav .navbar-nav li a {
       display: none;
   }
 
- 
+  .form-control {
+    position: absolute;
+    
+  }
+  .form-group {
+    margin-left: 10px;
+}
+  .image-form {
+    margin-top: 10px;
+    padding-left: 10px;
+    position: relative;
+  }
 
   #from-grp {
       display: flex;
@@ -110,7 +121,7 @@ nav .navbar-nav li a {
   .form-btn-2 {
     background-color: #2196F3;
   margin-left: 10px;
-  padding: 6px 28px;
+  padding: 8px 43px;
   border: none;
   border-radius: 4px;
   color: #ffffff;
@@ -124,13 +135,16 @@ nav .navbar-nav li a {
   .form-input {
     padding: 6px 42px;
   }
+
+  
+  
   
 
 /* DETAIL */
 
 .section-detail {
   background-color: #EAEAF5;
-  /* height: 10rem; */
+  height: 30rem;
 }
 
 .level {
@@ -164,7 +178,7 @@ nav .navbar-nav li a {
 
 .rightcard {
   text-align: center;
-  height: 10rem;
+  height: 12rem;
 }
 
 .detail-btn {
@@ -175,11 +189,16 @@ nav .navbar-nav li a {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
+  margin-top: 90px;
 }
 
 .right-heading {
   font-size: 18px;
   padding-top: 10px;
+}
+
+.number {
+  padding-top: 20px !important;
 }
 
 .price {

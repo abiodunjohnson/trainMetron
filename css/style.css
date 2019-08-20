@@ -243,8 +243,9 @@ form {
 
   .image-form {
     margin-top: 10px;
-    margin-left: 40px;
+    padding-left: 40px;
     position: relative;
+    z-index: 1;
   }
 
   /* #form-grp {
@@ -255,10 +256,13 @@ form {
   .form-control {
       width: 95% !important;
       position: absolute;
+      /* padding-right: 40px; */
       /* margin-left: 10px; */
 
       margin-left: 28px;
   }
+
+  
   .form-heading {
       margin-bottom: 03px;
   }

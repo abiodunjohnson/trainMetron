@@ -38,9 +38,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="book.html">Print ticket</a>
                         </li>
-                     
-                        
-                    <div class="btn-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Create account</a>
+                        </li>
+                      </ul>
+                      <div class="btn-nav">
+                        <a href="signin.html"> <Button size="sm" class="nav-btn">Sign In</Button></a>
+                        </div>  
+                    <!-- <div class="btn-nav">
                       
                         <div class="dropdown">
                             <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
@@ -52,7 +57,7 @@
                               <a class="dropdown-item" href="#!">Another action</a>
                             </div>
                           </div>
-                    </div>
+                    </div> -->
                     </div>
                 </div>
             </nav>
@@ -66,26 +71,30 @@
             <div class="row">
                 <div class="col">
                     <div class="choose-trip lg-12 md-6 sm-4 xs-3">  
-                        <form >
+                        <form action="index.html">
                             <div class="form-row" id="form1">
                                 <div class="form-group col-md-2">
-                                    <input type="text" class="form-control" id="oneTo" value="" placeholder="To">
+                                    <input type="text" name="blocationgo" class="form-control" id="secondlocation" >
+                                    <span><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-2">
-                                    <input type="text" class="form-control" value="" id="inputCityFrom2" placeholder="To">
+                                    <input type="text" name="blocationreturn" class="form-control" value="" id="return">
+                                    <span><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
-                                <div class="form-group col-md-2" id="form-input">
-                                    <input type="text" class="form-control" id="inputCityTo2" placeholder="To">
+                                <div class="form-group col-md-2">
+                                    <input name="bdate" class="form-control" value="" id="datepicker2">
+                                    <span><img src="asset/icons/Group6.svg"  class="image-form"></span>
                                 </div>
                 
                                 <div class="form-group col-md-2">
-                                    <input type="text" class="form-control" id="datepicker2" placeholder="To">
+                                    <input type="text" name="bseat" class="form-control" value="" id="datepicker2">
+                                    <span><img src="asset/icons/Vector.svg" id="img_form" class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-1">
-                                    <Button class="form-btn-2">Search</Button>
+                                    <Button class="form-btn-2">Change</Button>
                                 </div>
                             </div>
                             <div class="form-row" id="form2">
@@ -134,29 +143,43 @@
                 </div>
 
                 <div class="col-md-4">
-                    <div class="middlecard">
+                        <!-- <select class="cs-select cs-skin-rotate">
+                                <option value="" disabled selected>Return</option>
+                                
+                                        <div class="middlecard">
+                                                <div class="image-detail">
+                                                  <img src="asset/images/Vector (1).svg" class="detail-image" alt="DETAIL IMAGE" /><span class="trip" >RETURN</span>
+                                                </div>
+                                                <div class="leftdate">Tue Jul 2,2019</div> 
+                                                <div class="location"><small class="text-muted">Kaduna to Lagos</small></div>
+                                            </div>
+                                
+                                <option value="2">Option 2</option>
+                                <option value="3">Option 3</option>
+                            </select> -->
+                    <!-- <div class="middlecard">
                         <div class="image-detail">
                           <img src="asset/images/Vector (1).svg" class="detail-image" alt="DETAIL IMAGE" /><span class="trip" >RETURN</span>
                         </div>
                         <div class="leftdate">Tue Jul 2,2019</div> 
                         <div class="location"><small class="text-muted">Kaduna to Lagos</small></div>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="col-md-2">
                     <div class="rightcard">
-                        <h1 class="right-heading">Total</h1>
-                        <div class="price">N 4700</div>
+                        <!-- <h1 class="right-heading">Total</h1>
+                        <div class="price">N 4700</div> -->
                         <div class="number">1 Passenger</div>
-                        <Button class="detail-btn">Search</Button>
+                        <Button class="detail-btn">continue</Button>
                     </div>
                 </div>
             </div>
             
             <div class="row">
                 <div class="level">
-                    <div class="text-right"><small class="text-muted">Standard</small></div>
-                    <div class="text-left"><small class="text-muted">1st class</small></div>
+                    <div class="text-right"><small class="text-muted">Economy</small></div>
+                    <div class="text-left"><small class="text-muted">First Class</small></div>
                 </div>
             </div>
             <div class="row">
@@ -202,7 +225,7 @@
                             <div class="text-left"><small class="text-muted">1st class</small></div>
                         </div>
                     </div> -->
-                        <div class="col-md-4">
+                        <!-- <div class="col-md-4">
                                 <div class="leftcard">
                                     <div class="departure">
                                         <div class="time">8:30 to 16:00</div>
@@ -216,9 +239,9 @@
                                                 <label class="form-check-label" for="inlineRadio2">N 2300</label>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                         
-                                    <div class="location"><small class="text-muted">8h 30mins</small></div>
+                                    <!-- <div class="location"><small class="text-muted">8h 30mins</small></div>
                                     <div class="departure">
                                             <div class="time">8:30 to 16:00</div>
                                             <div class="form-cont">
@@ -235,18 +258,18 @@
                                             
                                         <div class="location"><small class="text-muted">8h 30mins</small></div>
     
-                                        
+                                         -->
                                 </div>
                         </div>
         
-                        <div class="col-md-2">
+                        <!-- <div class="col-md-2">
                             <div class="rightcard">
                                 <h1 class="right-heading">Total</h1>
                                 <div class="price">N 4700</div>
                                 <div class="number">1 Passenger</div>
                                 <Button class="detail-btn">Search</Button>
                             </div>
-                        </div>
+                        </div> -->
             </div>
         </div>
     </section>

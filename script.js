@@ -2,21 +2,45 @@ $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
 
-function rmv(){
-    document.querySelector("#input-a").addEventListener("input", function (){
-        if($("#input-a").value !== ""){
-            $("#img_form").hide();
-            document.querySelector("#img_form").style.display = "none";
-        } else if($("#input-a").value === ""){
-            document.querySelector("#img_form").style.display = "inline";
-        }
-    })
-}
-rmv();
+// function rmv(){
+//     document.querySelector("#input-a").addEventListener("input", function (){
+//         if($("#input-a").value !== ""){
+//             $("#img_form").hide();
+//             document.querySelector("#img_form").style.display = "none";
+//         } else if($("#input-a").value === ""){
+//             document.querySelector("#img_form").style.display = "inline";
+//         }
+//     })
+// }
+// rmv();
 if($("#input-a").value === ""){
     document.querySelector("#img_form").style.display = "inline";
 }
 
+
+// PASS VALUE TO THE NEXT PAGE
+
+// function passvalue(){
+//     let location = document.getElementById("input-a").value;
+//     localStorage.setItem("textvalue", location);
+//     return false;
+// }
+
+// function passvalue(form) {
+//     form.hlocationgo.value = form.blocationgo.value;
+//     form.hlocationreturn.value = form.blocationreturn.value;
+//     form.hdate.value = form.bdate.value;
+//     form.hseat.value = form.bseat.value
+// }
+
+function passvalue() {
+    let l = document.getElementById("firstlocation");
+    let n = document.getElementById("secondlocation");
+
+    l.value = n.value;
+}
+
+// document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
 
 // SHOW RETURN
 

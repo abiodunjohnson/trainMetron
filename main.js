@@ -1,3 +1,8 @@
+
+// document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+
+
+
 // const selector = (value) => {
 //     return document.querySelector(value);
 //   }

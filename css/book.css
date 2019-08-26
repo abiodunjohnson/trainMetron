@@ -11,6 +11,9 @@ nav .navbar-nav li a {
     color: #000000 !important;
 }
 
+#show{
+  background:black;
+}
 
 .nav-link {
     margin-right: 20px;

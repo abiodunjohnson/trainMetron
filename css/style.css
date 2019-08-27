@@ -244,9 +244,17 @@ form {
 
   .image-form {
     margin-top: 10px;
-    padding-left: 40px; 
-     position: relative;
+    /* padding-left: 40px;  */
+    position: relative;
     /* top: 60px; */
+  }
+
+  .span-img{
+      /* background-color: #52616B; */
+      position: relative;
+      /* padding-left: 40px; */
+      left: 30px;
+      
   }
 
   /* #form-grp {
@@ -478,9 +486,7 @@ footer {
     padding-top: 40px;
 }
 
-.logo-footer {
-    
-}
+
 
 .footer-text {
     color: #ffffff;
@@ -506,6 +512,10 @@ footer {
     padding: 11px 50px;
     color: #ffffff;
     background-color: #2196F3;
+}
+
+.footer-input:hover {
+    text-decoration: none;
 }
 
 /* .btn{

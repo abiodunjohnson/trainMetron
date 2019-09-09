@@ -2,6 +2,24 @@ $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
 
+
+let firstO = document.querySelector("#firstlocation");
+let secondO = document.querySelector("#input-a");
+
+
+
+firstO.addEventListener("input", (e)=>{
+    // console.log(e.target.value)
+    localStorage.setItem("origin", e.target.value)
+})
+
+secondO.addEventListener("input", (e)=>{
+    // console.log(e.target.value)
+    localStorage.setItem("origin2", e.target.value)
+})
+
+
+
 // function rmv(){
 //     document.querySelector("#input-a").addEventListener("input", function (){
 //         if($("#input-a").value !== ""){

@@ -37,24 +37,14 @@
                                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="book.html">Print ticket</a>
+                                <a class="nav-link" href="#">Print ticket</a>
                             </li>
                             <li class="nav-item">
-                             
+                                <a class="nav-link" href="signup.html">Create account</a>
                             </li>
-                            
+                        </ul>
                         <div class="btn-nav">
-                      
-                            <div class="dropdown">
-                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
-                                        <img src="asset/images/logout-icon.svg" class="logout-icon" alt="icon"> 
-                                </button>
-                                <div class="dropdown-menu" >
-                                    <a href="index.html" id="log-out">Log out</a>
-                                  <!-- <a class="dropdown-item" href="#!">Another action</a> -->
-                                </div>
-                              </div>
+                        <a href="signin.html"> <Button size="sm" class="nav-btn">Sign In</Button></a>
                         </div>
                     </div>
                 </nav>
@@ -130,7 +120,7 @@
                             <div class="row">
                                 <div class="form-group col-md-4">
                                     <p class="form-heading">From:</p>
-                                    <input type="text" name="hlocationgo" value="" class="form-control" id="input-a">
+                                    <input type="text"  value="" class="form-control" id="firstlocation">
                                     <span class="span-img"><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
@@ -249,24 +239,24 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1 class="trip-header mb-lg-5 mb-md-4 mb-sm-4 mb-3">4 easy steps to book your tickets</h1>
+                    <h1 class="trip-header-top mb-lg-5 mb-md-4 mb-sm-4 mb-3">4 easy steps to book your tickets</h1>
                 </div>
             </div>
 
-        <div class="row">
-            <div class="col-lg-3 col-md-6">
-                <div class="trip-box">
-                    <div class="trip-photo">
-                     <img src="asset/icons/Group 2.svg" class="trip-icon" alt="Trip-Icon">
-                    </div>
-                    <div class="inner-text">
-                      <h1 class="trip-text">REGISTER</h1>
-                      <p class="trip-paragraph">Create an account for free</p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="trip-box">
+                        <div class="trip-photo">
+                        <img src="asset/icons/Group 2.svg" class="trip-icon" alt="Trip-Icon">
+                        </div>
+                        <div class="inner-text">
+                        <h1 class="trip-text">REGISTER</h1>
+                        <p class="trip-paragraph">Create an account for free</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="col-lg-3 col-md-6">
+               <div class="col-lg-3 col-md-6">
                     <div class="trip-box">
                         <div class="trip-photo">
                             <img src="asset/icons/Group 2 (1).svg" class="trip-icon" alt="Trip-Icon">
@@ -276,9 +266,9 @@
                          <p class="trip-paragraph">A selection of train destinations in a <br>few clicks</p>
                         </div>
                     </div>
-            </div>
+                </div>
 
-            <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="trip-box">
                         <div class="trip-photo">
                             <img src="asset/icons/Group 2 (2).svg" class="trip-icon" alt="Trip-Icon">
@@ -290,7 +280,7 @@
                     </div>
                 </div>
 
-            <div class="col-lg-3 col-md-6">
+               <div class="col-lg-3 col-md-6">
                     <div class="trip-box">
                         <div class="trip-photo">
                             <img src="asset/icons/Group 2 (3).svg" class="trip-icon" alt="Trip-Icon">
@@ -300,8 +290,8 @@
                             <p class="trip-paragraph">Just like that! Enjoy your trip.</p>
                         </div>
                     </div>
-            </div>
-        </div>    
+                </div>
+            </div>    
         </div>
     </section>
 
@@ -322,7 +312,7 @@
                             <p class="dest-amt">N500/N800</p>
                         </div>
                         <div class="top-btn">
-                                <Button size="sm" class="dest-btn">Book Now</Button>
+                                <Button size="sm" class="dest-btn" id="top-btn">Book Now</Button>
                             </div>
                         </div>
                     </div>
@@ -354,7 +344,7 @@
                             <p class="dest-amt">N300/N400</p>
                         </div>
                         <div class="top-btn">
-                            <Button size="sm" class="dest-btn">Book Now</Button>
+                         <a href=""> <Button  size="sm" class="dest-btn">Book Now</Button></a> 
                             </div>
                         </div> 
                     </div>
@@ -454,7 +444,7 @@
                         </div>
                         <div class="why-content">
                             <h1 class="why-text">BOOK AND TRAVEL WITH EASE</h1>
-                            <p class="why-paragraph">Enjoy smooth journeys when you use tickets on <br>your phone to skip station queues.</p>
+                            <p class="why-paragraph">Enjoy smooth journeys when you use tickets on your phone to skip <br>station queues.</p>
                         </div>
                     </div>
                 </div>
@@ -466,7 +456,7 @@
                             </div>
                             <div class="why-content">
                                 <h1 class="why-text">FIND THE BEST PRICE FOR YOUR JOURNEY</h1>
-                                <p class="why-paragraph">Choose the cheapest train tickets and pay securedly</p>
+                                <p class="why-paragraph">Find out cheapest tickets exclusively <br>on our website.</p>
                             </div>
                         </div>
                 </div>
@@ -491,27 +481,27 @@
     <footer>
         <div class="container foot">
             <div class="footer-container">
-            <div class="row">
-                <div class="col-lg-6 footer-logo">
-                    <img src="asset/images/metron.svg" class="logo-footer" alt="Logo">
-                </div>
-
-                <div class="col-lg-6">
-                    <div class="footer-box">
-                        <div class="footer-text mb-md-4 mb-sm-3 mb-3">
-                            <h1 class="footer-heading">Sign Up for Exclusive Offers</h1>
-                            <p class="footer-paragraph">Receive special offers and get notifications on our new releases </p>
-                        </div>
-                        <div class="form-right">
-                        <form class="form-inline">
-                            <input class="form-control-lg forn-con" type="Your Email" placeholder="Your email " aria-label="Your Email">
-                            <a class="footer-input" href="#">Join Now</a>
-                        </form>
+                <div class="row">
+                    <div class="col-lg-6 footer-logo">
+                        <img src="asset/images/metron.svg" class="logo-footer" alt="Logo">
                     </div>
+
+                    <div class="col-lg-6">
+                        <div class="footer-box">
+                            <div class="footer-text mb-md-4 mb-sm-3 mb-3">
+                                <h1 class="footer-heading">Sign Up for Exclusive Offers</h1>
+                                <p class="footer-paragraph">Receive special offers and get notifications on our new releases </p>
+                            </div>
+                            <div class="form-right">
+                                <form class="form-inline">
+                                    <input class="form-control-lg forn-con" type="Your Email" placeholder="Your email " aria-label="Your Email">
+                                    <a class="footer-input" href="#">Join Now</a>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
         </div>
     </footer>
     <!-- Footer End -->

@@ -5,25 +5,35 @@ $(document).on('click', 'nav .navbar-nav li', function(){
 
 let firstO = document.querySelector("#firstlocation");
 let secondO = document.querySelector("#input-a");
+let thirdO = document.querySelector("#datepicker");
+let fourthO = document.querySelector("#firstseat");
 
 
 
-firstO.addEventListener("input", (e)=>{
+firstO.addEventListener("input", (e)=> {
     // console.log(e.target.value)
     localStorage.setItem("origin", e.target.value)
 })
 
-secondO.addEventListener("input", (e)=>{
+secondO.addEventListener("input", (e)=> {
     // console.log(e.target.value)
     localStorage.setItem("origin2", e.target.value)
 })
 
+thirdO.addEventListener("input", (e) => {
+    localStorage.setItem("origin3", e.target.value)
+})
+
+fourthO.addEventListener("input", (e) => {
+    localStorage.setItem("origin4", e.target.value)
+})
 
 
 // function rmv(){
 //     document.querySelector("#input-a").addEventListener("input", function (){
 //         if($("#input-a").value !== ""){
 //             $("#img_form").hide();
+
 //             document.querySelector("#img_form").style.display = "none";
 //         } else if($("#input-a").value === ""){
 //             document.querySelector("#img_form").style.display = "inline";
@@ -54,7 +64,6 @@ if($("#input-a").value === ""){
 function passvalue() {
     let l = document.getElementById("firstlocation");
     let n = document.getElementById("secondlocation");
-
     l.value = n.value;
 }
 

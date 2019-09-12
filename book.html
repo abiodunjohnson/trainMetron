@@ -78,13 +78,18 @@
                                 </div>
 
                                 <div class="form-group col-md-2">
-                                    <input name="bdate" class="form-control" value="" id="datepicker2">
+                                    <input name="bdate" class="form-control" id="datepicker2">
                                     <span><img src="asset/icons/Group6.svg"  class="image-form"></span>
                                 </div>
                 
                                 <div class="form-group col-md-2">
-                                    <input type="text" name="bseat" class="form-control" value="" id="datepicker2">
+                                    <input type="text" name="bseat" class="form-control"  id="seat1">
                                     <span><img src="asset/icons/Vector.svg" id="img_form" class="image-form"></span>
+                                </div>
+
+                                <div class="form-group col-md-2">
+                                    <input type="text" name="" class="form-control" id="pass2">
+                                    <span><img src="asset/icons/Group.svg" id="pass_img" class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-1">
@@ -300,7 +305,8 @@
         <script>
             let firstD = document.querySelector("#secondlocation").value = localStorage.getItem("origin");
             let secondD = document.querySelector("#return").value = localStorage.getItem("origin2");
-
+            let thirdD = document.querySelector("#seat1").value = localStorage.getItem("origin3");
+            let fourD = document.querySelector("#datepicker2").value = localStorage.getItem("origin4");
             console.log(firstD, secondD)
         </script>
 

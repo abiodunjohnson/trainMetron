@@ -18,7 +18,7 @@ document.querySelector("#seat1").value = fourD;
 
  let allRadios = document.querySelectorAll('.input--radio');
 function checkR(){
-    for(let i=0; i< allRadios.length; i++){
+    for(let i=0; i < allRadios.length; i++){
      if(allRadios[i].checked){
          document.querySelector('#price--total').textContent = allRadios[i].value * fifthD;
         //  return i.textContent;

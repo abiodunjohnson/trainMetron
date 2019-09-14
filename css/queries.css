@@ -176,7 +176,7 @@
         border: 1px solid #ffffff;
         height: 32rem;
         width: 25rem;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 03rem;
         background-color: #ffffff;
         align-content: center;
@@ -297,6 +297,22 @@
         width:400px;
     } */
 }
+
+@media(max-width:411px){
+    .form-btn {
+        padding: 6px 40px;
+    }
+}
+
+
+
+@media(max-width:360px){
+    .form-btn {
+        padding: 6px 40px;
+    }
+}
+
+
 
 
 

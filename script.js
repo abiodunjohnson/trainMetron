@@ -34,22 +34,25 @@ if($("#input-a").value === ""){
 // PASS VALUE TO THE NEXT PAGE
 document.querySelector("#form--main").addEventListener("submit", passvalue);
 function passvalue(){
-    // let firstO = document.querySelector("#firstlocation");
+    console.log(firstO.value);
+    alert("chl");
+   
+    let firstO = document.querySelector("#firstlocation");
     let secondO = document.querySelector("#input-a");
     let thirdO = document.querySelector("#datepicker");
     let fourthO = document.querySelector("#firstseat");
     let fifthO = document.querySelector("#total");
-    
-    // let sixO = document.querySelector("#total");
-    
+
     
     
     
-    // firstO.addEventListener("input", (e) => {
+    
+    firstO.addEventListener("input", (e) => {
         // console.log(e.target.value)
-    //     sessionStorage.setItem("origin", e.target.value)
-    // });
-    
+        sessionStorage.setItem("origin", e.target.value);
+        alert(sessionStorage.getItem("origin"));
+    });
+    // alert(sessionStorage.getItem("origin"));
     secondO.addEventListener("input", (e) => {
         // console.log(e.target.value)
         sessionStorage.setItem("origin2", e.target.value)

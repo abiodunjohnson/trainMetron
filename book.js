@@ -1,9 +1,9 @@
 let firstD =sessionStorage.getItem("origin");
-let secondD =   sessionStorage.getItem("origin2");
+let secondD = sessionStorage.getItem("origin2");
 let thirdD = sessionStorage.getItem("origin3");
-let fourD =sessionStorage.getItem("origin4");
-let fifthD =sessionStorage.getItem("origin5");
-
+let fourD = sessionStorage.getItem("origin4");
+let fifthD = sessionStorage.getItem("origin5");
+// alert(fourD);
 document.querySelector("#secondlocation").value = firstD;
  document.querySelector("#return").value = secondD;
 document.querySelector("#datepicker2").value = thirdD;
@@ -21,7 +21,7 @@ function checkR(){
     for(let i=0; i < allRadios.length; i++){
      if(allRadios[i].checked){
          document.querySelector('#price--total').textContent = allRadios[i].value * fifthD;
-        //  return i.textContent;
+         return i.textContent;
      }
  }
 }

@@ -1,3 +1,4 @@
+
 $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
@@ -7,7 +8,8 @@ let firstO = document.querySelector("#firstlocation");
 let secondO = document.querySelector("#input-a");
 let thirdO = document.querySelector("#datepicker");
 let fourthO = document.querySelector("#firstseat");
-
+//my addition below
+let fifthO = document.querySelector("#total");
 
 
 firstO.addEventListener("input", (e)=> {
@@ -26,6 +28,10 @@ thirdO.addEventListener("input", (e) => {
 
 fourthO.addEventListener("input", (e) => {
     localStorage.setItem("origin4", e.target.value)
+})
+//my addition below
+fifthO.addEventListener("input", (e) => {
+    localStorage.setItem( "origin5", e.target.value)
 })
 
 

@@ -39,9 +39,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Print ticket</a>
                             </li>
-                             <div class="btn-nav">
-                      
-                            <div class="dropdown">
+                             <div class="dropdown">
                                 <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         <img src="asset/images/logout-icon.svg" class="logout-icon" alt="icon"> 
@@ -50,6 +48,8 @@
                                     <a href="index.html" id="log-out">Log out</a>
                                   <!-- <a class="dropdown-item" href="#!">Another action</a> -->
                                 </div>
+                    </div>
+                           
                     </div>
                 </nav>
 
@@ -81,7 +81,7 @@
                         <div class="col-lg-2 col-sm-2 col-xs-2 col-md-2 dropdowns">
                             <div class="dropdown">
                                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                   <span id="total"></span> Passenger
+                                   <span value="" id="total"></span> Passenger
                                 </button>
                                 <div class="dropdown-box ">
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -124,11 +124,13 @@
                             <div class="row">
                                 <div class="form-group col-md-4">
                                     <p class="form-heading">From:</p>
+                                    
                                     <input type="text"  value="" class="form-control" id="firstlocation">
                                     <span class="span-img"><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-4">
+                                    
                                     <p class="form-heading">To where:</p>
                                     <input type="text" name="hlocationreturn" value="" class="form-control" id="input-a">
                                     <span class="span-img"><img src="asset/icons/Group5.svg"  class="image-form"></span>
@@ -136,19 +138,20 @@
 
                                 <div class="form-group col-md-4" id="form-input">
                                     <p class="form-heading">Departure time:</p>
-                                    <input id="datepicker" class="form-control" value="" class="form-input">
+                                    <input id="datepicker" class="form-control" value="" class="form-input" >
                                     <span class="span-img"><img src="asset/icons/Group6.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-4">
                                     <p class="form-heading">Seat class:</p>
-                                    <input type="text" list="seats" name="hseat" class="form-control" value="" id="input-a" >
+                                    <input type="text" list="seats" name="hseat" class="form-control" value="" id="firstseat" >
                                     <datalist id="seats">
-                                        <option selected>POSITION</option>
+                                        <select >
                                         
                                         <option>Aisle</option>
                                         <option>Window</option>
                                         <option>Any</option>
+                                    </select>
                                     </datalist>
                                     <span class="span-img"><img src="asset/icons/Vector.svg" id="img_form" class="image-form"></span>
                                 </div>

@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col">
                     <div class="choose-trip lg-12 md-6 sm-4 xs-3">  
-                        <form action="index.html">
+                        <form action="index2.html">
                             <div class="form-row" id="form1">
                                 <div class="form-group col-md-2">
                                     <input type="text" name="blocationgo" class="form-control" id="secondlocation" >
@@ -307,7 +307,9 @@
             let secondD = document.querySelector("#return").value = localStorage.getItem("origin2");
             let thirdD = document.querySelector("#seat1").value = localStorage.getItem("origin3");
             let fourD = document.querySelector("#datepicker2").value = localStorage.getItem("origin4");
-            console.log(firstD, secondD)
+            //my addition below
+            let fifthD= document.querySelector("#pass2").value= localStorage.getItem("origin5");
+            console.log(firstD, secondD,fifthD)
         </script>
 
 

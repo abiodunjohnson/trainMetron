@@ -274,10 +274,10 @@ form {
       margin-left: 10px;
   } */
 
-  input {
+  /* input {
       border: 1px solid red;
-  }
-  .form-control {
+  } */
+  .input--primary {
       width: 75% !important;
       /* position: absolute; */
       /* padding-right: 40px; */
@@ -289,11 +289,16 @@ form {
       border-bottom: 1px solid #ced4da;
       border-bottom-left-radius: 0px !important;
       border-top-left-radius: 0px !important;
+      outline: none !important;
      
+  }
+  .input--primary{
+      outline: none !important;
+      /* border: none !important; */
   }
 
   form {
-      margin-left: 15px;
+      margin-left: 55px;
   }
 
   
@@ -525,7 +530,9 @@ footer {
     font-size: 14px;
 }
 
-
+.form-inline {
+    margin-left: 15px;
+}
 
 .form-control-lg{
     border-radius: 0px !important;

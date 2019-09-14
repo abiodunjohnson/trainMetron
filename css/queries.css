@@ -17,6 +17,16 @@
       padding: 6px 40px;
     }
 
+    .span-img {
+        /* background-color: #52616B; */
+        position: absolute;
+        /* padding-left: 40px; */
+      left: 05px;
+       /* top: 30px; */
+        
+    }
+  
+
       .top-body {
         text-align: center;
         display: block;
@@ -53,6 +63,8 @@
         width: 70% !important;
         position: absolute; 
      }
+
+     
 }
 
 
@@ -117,7 +129,7 @@
     }
 
     .form-control-lg{
-        width: 18rem; 
+        width: 14rem; 
     }
 
     .foot {
@@ -128,6 +140,17 @@
         margin-left: 50px;
     }
 
+    .form-group {
+        margin-bottom: 3rem !important;
+    }
+
+    form {
+        margin-left: 65px;
+    }
+
+    .form-inline {
+        margin-left: 10px;
+    }
 }
 
 

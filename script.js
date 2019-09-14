@@ -3,30 +3,15 @@ $(document).on('click', 'nav .navbar-nav li', function(){
 });
 
 
-let firstO = document.querySelector("#firstlocation");
-let secondO = document.querySelector("#input-a");
-let thirdO = document.querySelector("#datepicker");
-let fourthO = document.querySelector("#firstseat");
 
+//  sessionStorage.setItem('total', '2004');
+//  sessionStorage.getItem('total')
+// console.log(sixO);
 
-
-firstO.addEventListener("input", (e)=> {
-    // console.log(e.target.value)
-    localStorage.setItem("origin", e.target.value)
-})
-
-secondO.addEventListener("input", (e)=> {
-    // console.log(e.target.value)
-    localStorage.setItem("origin2", e.target.value)
-})
-
-thirdO.addEventListener("input", (e) => {
-    localStorage.setItem("origin3", e.target.value)
-})
-
-fourthO.addEventListener("input", (e) => {
-    localStorage.setItem("origin4", e.target.value)
-})
+// sixO.addEventListener("input", (e) => {
+//     // console.log(e.target.value)
+//     sessionStorage.setItem("origin5", e.target.value)
+// })
 
 
 // function rmv(){
@@ -47,27 +32,44 @@ if($("#input-a").value === ""){
 
 
 // PASS VALUE TO THE NEXT PAGE
-
-// function passvalue(){
-//     let location = document.getElementById("input-a").value;
-//     localStorage.setItem("textvalue", location);
-//     return false;
-// }
-
-// function passvalue(form) {
-//     form.hlocationgo.value = form.blocationgo.value;
-//     form.hlocationreturn.value = form.blocationreturn.value;
-//     form.hdate.value = form.bdate.value;
-//     form.hseat.value = form.bseat.value
-// }
-
-function passvalue() {
-    let l = document.getElementById("firstlocation");
-    let n = document.getElementById("secondlocation");
-    l.value = n.value;
+document.querySelector("#form--main").addEventListener("submit", passvalue);
+function passvalue(){
+    // let firstO = document.querySelector("#firstlocation");
+    let secondO = document.querySelector("#input-a");
+    let thirdO = document.querySelector("#datepicker");
+    let fourthO = document.querySelector("#firstseat");
+    let fifthO = document.querySelector("#total");
+    
+    // let sixO = document.querySelector("#total");
+    
+    
+    
+    
+    // firstO.addEventListener("input", (e) => {
+        // console.log(e.target.value)
+    //     sessionStorage.setItem("origin", e.target.value)
+    // });
+    
+    secondO.addEventListener("input", (e) => {
+        // console.log(e.target.value)
+        sessionStorage.setItem("origin2", e.target.value)
+    });
+    
+    thirdO.addEventListener("input", (e) => {
+        sessionStorage.setItem("origin3", e.target.value)
+    });
+    
+    fourthO.addEventListener("input", (e) => {
+        sessionStorage.setItem("origin4", e.target.value)
+    });
+    sessionStorage.setItem("origin5", fifthO.textContent);
 }
 
-// document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+
+
+
+
+// document.getElementById("result").innerHTML=sessionStorage.getItem("textvalue");
 
 // SHOW RETURN
 
@@ -191,9 +193,9 @@ $('.dropdown-menu').click(function(e) {
 //     if(document.getElementById('same')){
 //        window.location="book.html";
 //     var inputCityFrom=document.getElementById("inputCityFrom").value;
-//     localStorage.setItem('inputCityFrom',inputCityFrom);
+//     sessionStorage.setItem('inputCityFrom',inputCityFrom);
     
-//     document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
+//     document.getElementById('inputCityFrom2').value= sessionStorage.getItem('inputCityFrom');
 //     }    
 // });
 
@@ -202,17 +204,17 @@ $('.dropdown-menu').click(function(e) {
 // document.getElementById('same').addEventListener("click",function(){ 
    
 //     var inputCityFrom=document.getElementById.JSON.Parse(("inputCityFrom")).value;
-//     localStorage.setItem ('inputCityFrom',inputCityFrom);
-//     document.getElementById('inputCityTo').value= localStorage.getItem.JSON.stringify(('inputCityFrom'));
+//     sessionStorage.setItem ('inputCityFrom',inputCityFrom);
+//     document.getElementById('inputCityTo').value= sessionStorage.getItem.JSON.stringify(('inputCityFrom'));
 // });
 
 // function passValue (){
 //     var input1=document.getElementById("inputCityFrom").value;
-//     localStorage.setItem("textvalue", input1);
+//     sessionStorage.setItem("textvalue", input1);
 //     return false;
 // }
 
-// document.getElementById("inputCityFrom2").innerHTML=localStorage.getItem("textvalue");
+// document.getElementById("inputCityFrom2").innerHTML=sessionStorage.getItem("textvalue");
 
 
 

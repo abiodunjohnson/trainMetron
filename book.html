@@ -135,8 +135,8 @@
                         <div class="image-detail">
                           <img src="asset/images/Vector.svg"  class="detail-image" alt="DETAIL IMAGE"/><span class="trip" >OUTBOUND</span>
                         </div>
-                        <div class="leftdate">Tue Jul 2,2019</div> 
-                        <div class="location"><small class="text-muted">Lagos to Kaduna</small></div>
+                        <div class="leftdate" id="left_date"></div> 
+                        <div class="location" id="locationcard"><small class="text-muted" id="locate"><span id="from"></span> to <span id="to"></span> </small></div>
                     </div>
 
                 </div>
@@ -167,10 +167,10 @@
 
                 <div class="col-md-2">
                     <div class="rightcard">
-                        <!-- <h1 class="right-heading">Total</h1>
-                        <div class="price">N 4700</div> -->
-                        <div class="number">1 Passenger</div>
-                        <Button class="detail-btn">continue</Button>
+                        <h1 class="right-heading">Total</h1>
+                        <div class="price" id="price--total">N 4700</div>
+                        <div class="number"> <span id="val"></span> Passenger</div>
+                        <Button class="detail-btn"action="Passenger.html">continue</Button>
                     </div>
                 </div>
             </div>
@@ -181,19 +181,19 @@
                     <div class="text-left"><small class="text-muted">First Class</small></div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row container--radio">
                     <div class="col-md-4">
                         <div class="leftcard">
                             <div class="departure">
                                 <div class="time">8:30 to 16:00</div>
                                 <div class="form-cont">
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                        <input class="form-check-input input--radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="2330">
                                         <label class="form-check-label" for="inlineRadio1">N 2330</label>
                                     </div>
                                     <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                        <label class="form-check-label" for="inlineRadio2">N 2300</label>
+                                        <input class="form-check-input input--radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="4300">
+                                        <label class="form-check-label" for="inlineRadio2">N 4300</label>
                                     </div>
                                 </div>
                             </div>
@@ -204,12 +204,12 @@
                                     <div class="time">8:30 to 16:00</div>
                                     <div class="form-cont">
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                                            <label class="form-check-label" for="inlineRadio1">N 2330</label>
+                                            <input class="form-check-input input--radio" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="1330">
+                                            <label class="form-check-label" for="inlineRadio1">N 1330</label>
                                         </div>
                                         <div class="form-check form-check-inline">
-                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                                            <label class="form-check-label" for="inlineRadio2">N 3300</label>
+                                            <input class="form-check-input input--radio" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="5300">
+                                            <label class="form-check-label" for="inlineRadio2">N 5300</label>
                                         </div>
                                     </div>
                                 </div>
@@ -297,17 +297,13 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="main.js"></script>
+        <script src="book.js"></script>
 
 
-        <script src="script.js"></script>
+        <!-- <script src="script.js"></script> -->
 
         <script>
-            let firstD = document.querySelector("#secondlocation").value = localStorage.getItem("origin");
-            let secondD = document.querySelector("#return").value = localStorage.getItem("origin2");
-            let thirdD = document.querySelector("#seat1").value = localStorage.getItem("origin3");
-            let fourD = document.querySelector("#datepicker2").value = localStorage.getItem("origin4");
-            console.log(firstD, secondD)
+          
         </script>
 
 

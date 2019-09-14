@@ -115,32 +115,32 @@
                             </div>
                         </div>
                     </div>
-                    <form action="book.html">
+                    <form action="book.html" id="form--main">
                         <div class="form-row" id="form1">
                             <div class="row">
                                 <div class="form-group col-md-4">
                                     <p class="form-heading">From:</p>
                                     
-                                    <input type="text"  value="" class="form-control" id="firstlocation">
+                                    <input type="text"  value="" class="input--primary" id="firstlocation" required>
                                     <span class="span-img"><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-4">
                                     
                                     <p class="form-heading">To where:</p>
-                                    <input type="text" name="hlocationreturn" value="" class="form-control" id="input-a">
+                                    <input type="text" name="hlocationreturn" value="" class="input--primary input--primary" id="input-a" required>
                                     <span class="span-img"><img src="asset/icons/Group5.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-4" id="form-input">
                                     <p class="form-heading">Departure time:</p>
-                                    <input id="datepicker" class="form-control" value="" class="form-input">
+                                    <input id="datepicker" class="input--primary" value="" class="form-input" required>
                                     <span class="span-img"><img src="asset/icons/Group6.svg"  class="image-form"></span>
                                 </div>
 
                                 <div class="form-group col-md-4">
                                     <p class="form-heading">Seat class:</p>
-                                    <input type="text" list="seats" name="hseat" class="form-control" value="" id="firstseat" >
+                                    <input type="text" list="seats" name="hseat" class="input--primary" value="" id="firstseat" required>
                                     <datalist id="seats">
                                         <option selected>POSITION</option>
                                         
@@ -152,7 +152,7 @@
                                 </div>
                     
                                 <div class="form-group col-md-4">
-                                    <Button type="submit" class="form-btn" onclick="passvalue(from);">Search train tickets</Button>
+                                    <Button type="submit" class="form-btn">Search train tickets</Button>
                                 </div>
                             </div>
                         </div>
@@ -521,8 +521,8 @@
         crossorigin="anonymous"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="/main.js"></script>
-
+       
+    
              
         <script src="script.js"></script>
         

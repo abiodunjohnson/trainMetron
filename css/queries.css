@@ -1,21 +1,43 @@
+@media (max-width: 1024px) {
+    .choose-trip {
+        border: 1px solid #ffffff;
+        height: 14rem;
+        width: 44rem;
+        margin-right: 02px;
+        margin-top: 3rem;
+      }
 
+      .hero {
+        height: 60vh;
+      }
+}
 
 
 @media (max-width: 992px) {
     .choose-trip {
         border: 1px solid #ffffff;
         height: 14rem;
-        width: 50rem;
+        width: 47rem;
         margin-right: 02px;
         margin-top: 3rem;
       }
 
       .form-btn {
         background-color: #2196F3;
-      margin-left: 30px;
+      /* margin-left: 10px; */
       margin-top: 27px;
-      padding: 6px 40px;
+      padding: 6px 33px;
     }
+
+    .span-img {
+        /* background-color: #52616B; */
+        position: absolute;
+        /* padding-left: 40px; */
+      left: 05px;
+       /* top: 30px; */
+        
+    }
+  
 
       .top-body {
         text-align: center;
@@ -53,6 +75,8 @@
         width: 70% !important;
         position: absolute; 
      }
+
+     
 }
 
 
@@ -84,6 +108,18 @@
         padding-right: 10px;
         padding-left: 10px;
     }
+
+    /* .form-btn {
+        background-color: #2196F3;
+        /* margin-left: 25px; */
+        /* margin-right: 10px !important; */
+        /* margin-top: 27px;
+        padding: 6px 10px;
+        border: none;
+        border-radius: 4px; */ 
+        .form-btn {
+            padding: 6px 105px;
+        }
 
     .trip-header {
         padding-top: 02rem;
@@ -117,7 +153,7 @@
     }
 
     .form-control-lg{
-        width: 18rem; 
+        width: 14rem; 
     }
 
     .foot {
@@ -128,6 +164,17 @@
         margin-left: 50px;
     }
 
+    .form-group {
+        margin-bottom: 1rem !important;
+    }
+
+    form {
+        margin-left: 65px;
+    }
+
+    .form-inline {
+        margin-left: 10px;
+    }
 }
 
 
@@ -141,7 +188,7 @@
         border: 1px solid #ffffff;
         height: 32rem;
         width: 25rem;
-        margin-left: 10px;
+        margin-left: 40px;
         margin-top: 03rem;
         background-color: #ffffff;
         align-content: center;
@@ -153,6 +200,10 @@
         /* margin-left: 10px; */
   
         /* margin-left: 28px; */
+    }
+
+    .form-btn {
+        padding: 6px 74px;
     }
 
     .top-body {
@@ -258,6 +309,22 @@
         width:400px;
     } */
 }
+
+@media(max-width:411px){
+    .form-btn {
+        padding: 6px 40px;
+    }
+}
+
+
+
+@media(max-width:360px){
+    .form-btn {
+        padding: 6px 40px;
+    }
+}
+
+
 
 
 

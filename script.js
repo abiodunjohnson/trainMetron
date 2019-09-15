@@ -3,36 +3,41 @@ $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
 
+document.querySelector("#form--main").addEventListener("submit", passValue);
+function passValue() {
+    let locationA = document.querySelector("#firstlocation");
+let locationB = document.querySelector("#input-a");
+let seatA = document.querySelector("#firstseat");
+let pickDA = document.querySelector("#datepicker");
+let allPass = document.querySelector("#total");
 
-let firstO = document.querySelector("#firstlocation");
-let secondO = document.querySelector("#input-a");
-let thirdO = document.querySelector("#datepicker");
-let fourthO = document.querySelector("#firstseat");
-//my addition below
-let fifthO = document.querySelector("#total");
+
+// locationA.addEventListener("input", (e)=> {
+    
+//     sessionStorage.setItem("origin", e.target.value)
+// })
+sessionStorage.setItem("origin", locationA.value);
+
+// locationB.addEventListener("input", (e)=> {
+//     console.log(e.target.value)
+//     sessionStorage.setItem("origin2", e.target.value)
+// })
+sessionStorage.setItem("origin2", locationB.value);
+
+// seatA.addEventListener("input", (e) => {
+//     sessionStorage.setItem("origin3", e.target.value)
+// })
+sessionStorage.setItem("origin3", seatA.value);
+
+// pickDA.addEventListener("input", (e) => {
+//     sessionStorage.setItem("origin4", e.target.value)
+// })
+sessionStorage.setItem("origin4", pickDA.value);
+
+    sessionStorage.setItem("origin5", allPass.textContent);
+}
 
 
-firstO.addEventListener("input", (e)=> {
-    // console.log(e.target.value)
-    localStorage.setItem("origin", e.target.value)
-})
-
-secondO.addEventListener("input", (e)=> {
-    // console.log(e.target.value)
-    localStorage.setItem("origin2", e.target.value)
-})
-
-thirdO.addEventListener("input", (e) => {
-    localStorage.setItem("origin3", e.target.value)
-})
-
-fourthO.addEventListener("input", (e) => {
-    localStorage.setItem("origin4", e.target.value)
-})
-//my addition below
-fifthO.addEventListener("input", (e) => {
-    localStorage.setItem( "origin5", e.target.value)
-})
 
 
 // function rmv(){
@@ -67,11 +72,11 @@ if($("#input-a").value === ""){
 //     form.hseat.value = form.bseat.value
 // }
 
-function passvalue() {
-    let l = document.getElementById("firstlocation");
-    let n = document.getElementById("secondlocation");
-    l.value = n.value;
-}
+// function passvalue() {
+//     let l = document.getElementById("firstlocation");
+//     let n = document.getElementById("secondlocation");
+//     l.value = n.value;
+// }
 
 // document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
 

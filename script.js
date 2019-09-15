@@ -2,16 +2,41 @@ $(document).on('click', 'nav .navbar-nav li', function(){
     $(this).addClass('active').siblings().addRemove('active')
 });
 
+document.querySelector("#form--main").addEventListener("submit", passValue);
+function passValue() {
+    let locationA = document.querySelector("#firstlocation");
+let locationB = document.querySelector("#input-a");
+let seatA = document.querySelector("#firstseat");
+let pickDA = document.querySelector("#datepicker");
+let allPass = document.querySelector("#total");
 
 
-//  sessionStorage.setItem('total', '2004');
-//  sessionStorage.getItem('total')
-// console.log(sixO);
-
-// sixO.addEventListener("input", (e) => {
-//     // console.log(e.target.value)
-//     sessionStorage.setItem("origin5", e.target.value)
+// locationA.addEventListener("input", (e)=> {
+    
+//     sessionStorage.setItem("origin", e.target.value)
 // })
+sessionStorage.setItem("origin", locationA.value);
+
+// locationB.addEventListener("input", (e)=> {
+//     console.log(e.target.value)
+//     sessionStorage.setItem("origin2", e.target.value)
+// })
+sessionStorage.setItem("origin2", locationB.value);
+
+// seatA.addEventListener("input", (e) => {
+//     sessionStorage.setItem("origin3", e.target.value)
+// })
+sessionStorage.setItem("origin3", seatA.value);
+
+// pickDA.addEventListener("input", (e) => {
+//     sessionStorage.setItem("origin4", e.target.value)
+// })
+sessionStorage.setItem("origin4", pickDA.value);
+
+    sessionStorage.setItem("origin5", allPass.textContent);
+}
+
+
 
 
 // function rmv(){
@@ -32,47 +57,27 @@ if($("#input-a").value === ""){
 
 
 // PASS VALUE TO THE NEXT PAGE
-document.querySelector("#form--main").addEventListener("submit", passvalue);
-function passvalue(){
-    console.log(firstO.value);
-    alert("chl");
-   
-    let firstO = document.querySelector("#firstlocation");
-    let secondO = document.querySelector("#input-a");
-    let thirdO = document.querySelector("#datepicker");
-    let fourthO = document.querySelector("#firstseat");
-    let fifthO = document.querySelector("#total");
 
-    
-    
-    
-    
-    firstO.addEventListener("input", (e) => {
-        // console.log(e.target.value)
-        sessionStorage.setItem("origin", e.target.value);
-        alert(sessionStorage.getItem("origin"));
-    });
-    // alert(sessionStorage.getItem("origin"));
-    secondO.addEventListener("input", (e) => {
-        // console.log(e.target.value)
-        sessionStorage.setItem("origin2", e.target.value)
-    });
-    
-    thirdO.addEventListener("input", (e) => {
-        sessionStorage.setItem("origin3", e.target.value)
-    });
-    
-    fourthO.addEventListener("input", (e) => {
-        sessionStorage.setItem("origin4", e.target.value)
-    });
-    sessionStorage.setItem("origin5", fifthO.textContent);
-}
+// function passvalue(){
+//     let location = document.getElementById("input-a").value;
+//     localStorage.setItem("textvalue", location);
+//     return false;
+// }
 
+// function passvalue(form) {
+//     form.hlocationgo.value = form.blocationgo.value;
+//     form.hlocationreturn.value = form.blocationreturn.value;
+//     form.hdate.value = form.bdate.value;
+//     form.hseat.value = form.bseat.value
+// }
 
+// function passvalue() {
+//     let l = document.getElementById("firstlocation");
+//     let n = document.getElementById("secondlocation");
+//     l.value = n.value;
+// }
 
-
-
-// document.getElementById("result").innerHTML=sessionStorage.getItem("textvalue");
+// document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
 
 // SHOW RETURN
 
@@ -196,9 +201,9 @@ $('.dropdown-menu').click(function(e) {
 //     if(document.getElementById('same')){
 //        window.location="book.html";
 //     var inputCityFrom=document.getElementById("inputCityFrom").value;
-//     sessionStorage.setItem('inputCityFrom',inputCityFrom);
+//     localStorage.setItem('inputCityFrom',inputCityFrom);
     
-//     document.getElementById('inputCityFrom2').value= sessionStorage.getItem('inputCityFrom');
+//     document.getElementById('inputCityFrom2').value= localStorage.getItem('inputCityFrom');
 //     }    
 // });
 
@@ -207,17 +212,17 @@ $('.dropdown-menu').click(function(e) {
 // document.getElementById('same').addEventListener("click",function(){ 
    
 //     var inputCityFrom=document.getElementById.JSON.Parse(("inputCityFrom")).value;
-//     sessionStorage.setItem ('inputCityFrom',inputCityFrom);
-//     document.getElementById('inputCityTo').value= sessionStorage.getItem.JSON.stringify(('inputCityFrom'));
+//     localStorage.setItem ('inputCityFrom',inputCityFrom);
+//     document.getElementById('inputCityTo').value= localStorage.getItem.JSON.stringify(('inputCityFrom'));
 // });
 
 // function passValue (){
 //     var input1=document.getElementById("inputCityFrom").value;
-//     sessionStorage.setItem("textvalue", input1);
+//     localStorage.setItem("textvalue", input1);
 //     return false;
 // }
 
-// document.getElementById("inputCityFrom2").innerHTML=sessionStorage.getItem("textvalue");
+// document.getElementById("inputCityFrom2").innerHTML=localStorage.getItem("textvalue");
 
 
 

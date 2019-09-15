@@ -1,26 +1,27 @@
-let firstD =sessionStorage.getItem("origin");
-let secondD = sessionStorage.getItem("origin2");
-let thirdD = sessionStorage.getItem("origin3");
-let fourD = sessionStorage.getItem("origin4");
-let fifthD = sessionStorage.getItem("origin5");
-// alert(fourD);
-document.querySelector("#secondlocation").value = firstD;
- document.querySelector("#return").value = secondD;
-document.querySelector("#datepicker2").value = thirdD;
-document.querySelector("#seat1").value = fourD;
- document.querySelector("#pass2").value = fifthD;
- 
- document.querySelector("#from").textContent = firstD;
- document.querySelector("#to").textContent = secondD;
- document.querySelector("#left_date").textContent = thirdD;
- document.querySelector("#val").textContent = fifthD;
+let location1 = sessionStorage.getItem("origin");
+let location2 =  sessionStorage.getItem("origin2");
+let seatb =  sessionStorage.getItem("origin3");
+let dateP =  sessionStorage.getItem("origin4");
+let allPassB = sessionStorage.getItem("origin5");
 
 
- let allRadios = document.querySelectorAll('.input--radio');
+ document.querySelector("#secondlocation").value = location1
+document.querySelector("#return").value = location2
+document.querySelector("#seat1").value = seatb
+document.querySelector("#datepicker2").value = dateP
+document.querySelector("#pass2").value = allPassB
+// console.log(location1, location2, allPassB)
+
+document.querySelector("#from").textContent = location1;
+document.querySelector("#to").textContent = location2;
+document.querySelector("#left_date").textContent = dateP;
+document.querySelector("#val").textContent = allPassB;
+
+let allRadios = document.querySelectorAll('.input--radio');
 function checkR(){
     for(let i=0; i < allRadios.length; i++){
      if(allRadios[i].checked){
-         document.querySelector('#price--total').textContent = allRadios[i].value * fifthD;
+         document.querySelector('#price--total').textContent = allRadios[i].value * allPassB;
          return i.textContent;
      }
  }

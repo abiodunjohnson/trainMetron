@@ -1,4 +1,16 @@
+@media (max-width: 1024px) {
+    .choose-trip {
+        border: 1px solid #ffffff;
+        height: 14rem;
+        width: 44rem;
+        margin-right: 02px;
+        margin-top: 3rem;
+      }
 
+      .hero {
+        height: 60vh;
+      }
+}
 
 
 @media (max-width: 992px) {

@@ -39,9 +39,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Print ticket</a>
                             </li>
-                             <div class="btn-nav">
-                      
-                            <div class="dropdown">
+                             <div class="dropdown">
                                 <button class="btn  dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
                                         aria-haspopup="true" aria-expanded="false">
                                         <img src="asset/images/logout-icon.svg" class="logout-icon" alt="icon"> 
@@ -50,6 +48,8 @@
                                     <a href="index.html" id="log-out">Log out</a>
                                   <!-- <a class="dropdown-item" href="#!">Another action</a> -->
                                 </div>
+                    </div>
+                           
                     </div>
                 </nav>
 
@@ -146,11 +146,12 @@
                                     <p class="form-heading">Seat class:</p>
                                     <input type="text" list="seats" name="hseat" class="input--primary" value="" id="firstseat" >
                                     <datalist id="seats">
-                                        <option selected>POSITION</option>
+                                        <select >
                                         
                                         <option>Aisle</option>
                                         <option>Window</option>
                                         <option>Any</option>
+                                    </select>
                                     </datalist>
                                     <span class="span-img"><img src="asset/icons/Vector.svg" id="img_form" class="image-form"></span>
                                 </div>

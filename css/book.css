@@ -109,7 +109,7 @@ nav .navbar-nav li a {
   .image-form {
     /* margin-top: 10px; */
     /* padding-left: 10px; */
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-top: -67px;
     border-right: 1px solid none;
     border-left: 1px solid #ced4da;
@@ -121,13 +121,29 @@ nav .navbar-nav li a {
     /* position: relative; */
   }
 
+  .input--primary {
+    width: 70%;
+    padding: 06px 04px;
+    margin-left: 20px !important;
+    outline: none !important;
+    border-right:1px solid #ced4da;
+    border-left:none !important;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+  }
+  
+
   .span-img{
-    margin-right: 20px;
-    /* background-color: #52616B; */
+    /* left: 05px; */
+    /* top: 32px; */
+    /* margin-right: 20px; */
     /* position: absolute; */
-    /* padding-left: 40px; */
-  /* left: 03px; */
-   /* top: 27px; */
+    
+   margin-right: 30px;
     
 }
 
@@ -200,13 +216,23 @@ nav .navbar-nav li a {
   
 }
 
+/* .right-bottom-card {
+  background-color: #ffffff;
+  height: 80px;
+  margin-top: 20rem;
+} */
+
+.leftdate {
+  font-weight: 500 !important;
+}
+
 .leftdate, .image-detail, .location {
   margin-left: 20px;
 }
 
 .rightcard {
   text-align: center;
-  height: 12rem;
+  height: 200px;
 }
 
 .detail-btn {
@@ -217,16 +243,17 @@ nav .navbar-nav li a {
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
-  margin-top: 90px;
+  margin-top: 10px;
 }
 
 .right-heading {
   font-size: 18px;
   padding-top: 10px;
+  font-weight: 500;
 }
 
 .number {
-  padding-top: 20px !important;
+  /* padding-top: 20px !important; */
 }
 
 .price {
@@ -291,3 +318,6 @@ footer {
 }
 
 /* Just added this to enable me commit */
+
+/* MEDIA QUERY */
+

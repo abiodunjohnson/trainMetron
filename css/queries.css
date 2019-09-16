@@ -314,7 +314,6 @@
     .form-btn {
         padding: 6px 40px;
     }
-    /* .hero {    height: 50vh;} */
 }
 
 
@@ -325,7 +324,11 @@
     }
 }
 
-
+@media (max-width: 768px) {
+    .form-btn-2 {
+        padding: 05px 98px !important;
+}
+}
 
 
 

@@ -18,7 +18,7 @@
         
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="asset/images/metron.black.svg" class="logo" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -87,14 +87,14 @@
                 <div class="col col-lg-4">
                     <div class="right-side">
                         <p class="total">TOTAL</p>
-                        <p class="price">N2350</p>
-                        <p class="no">1 adult</p>
+                        <p class="price">&#8358;<span id="total--price">2350</span></p>
+                        <p class="no"><span id="val2"></span> Passenger</p>
                         <button type="button" class="btn btn-primary">Continue</button>
                     </div>
                     <div class="rightdown-side">
-                      <div id="bound"><p>Outbound</p><p>Tue Jul 2</p></div>
+                      <div id="bound"><p>Outbound</p><p id="date--pass"></p></div>
                       <hr id="partition">
-                      <p  id="stop">Lagos to Kaduna Junction <span>8h30m, 0 change</span></p>
+                      <p  id="stop"><span id="from-pass"></span> to <span id="to-pass"></span><span class="junction"> Junction </span><span>8h30m, 0 change</span></p>
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@
         <script src="passenger.js"></script>
 
 
-        <script src="script.js"></script>
+        
 
 </body>
 </html>

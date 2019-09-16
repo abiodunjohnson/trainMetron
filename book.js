@@ -28,3 +28,9 @@ function checkR(){
 }
  
  document.querySelector('.container--radio').addEventListener("click", checkR );
+
+
+ // Getting to Passenger
+//  let totalPass = document.querySelector("#pass");
+//  let location = document.querySelector("#secondlocation");
+ 

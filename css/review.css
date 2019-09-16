@@ -134,3 +134,39 @@ border-radius: 4px;
 width:380px;
 background: #2196F3 !important;
 }
+
+@media(max-width:1024px){
+    .row{
+        left:-150px;
+    }
+}
+
+@media(max-width:768px){
+    .row{
+        left:-300px;
+    }
+}
+
+@media(max-width:425px){
+    .row{
+        left:-490px;
+    }
+}
+
+@media(max-width:375px){
+    .row{
+        left:-520px;
+    }
+}
+@media(max-width:320px){
+    .row{
+        left:-520px;
+    }
+     .content{
+       width:320px;
+     
+    }
+    .change{
+        left:110px;
+    }
+}

@@ -110,6 +110,11 @@ color:#52616B;
 .adult {
     display: flex;
 }
+
+.pass3 {
+    margin-left: 05px;
+}
+
 .border{
     width:320px;
 }

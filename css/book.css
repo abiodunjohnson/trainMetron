@@ -47,17 +47,6 @@ nav .navbar-nav li a {
     background-color: #ffffff; 
 }
 
-/* .form-control {
-   
-    border-right:1px solid #ced4da;
-      border-left:none !important;
-      border-top: 1px solid #ced4da;
-      border-bottom: 1px solid #ced4da;
-      border-bottom-left-radius: 0px !important;
-      border-top-left-radius: 0px !important;
-} */
-
-
   .dropdown-btn-block {
     display: flex;
   }
@@ -107,9 +96,7 @@ nav .navbar-nav li a {
     margin-left: 10px;
 }
   .image-form {
-    /* margin-top: 10px; */
-    /* padding-left: 10px; */
-    /* margin-right: 10px; */
+    
     margin-top: -67px;
    
     border-right: 1px solid none;
@@ -139,10 +126,7 @@ nav .navbar-nav li a {
   
 
   .span-img{
-    /* left: 05px; */
-    /* top: 32px; */
-    /* margin-right: 20px; */
-    /* position: absolute; */
+   
     
    margin-right: 30px;
     
@@ -217,11 +201,7 @@ nav .navbar-nav li a {
   
 }
 
-/* .right-bottom-card {
-  background-color: #ffffff;
-  height: 80px;
-  margin-top: 20rem;
-} */
+
 
 .leftdate {
   font-weight: 500 !important;

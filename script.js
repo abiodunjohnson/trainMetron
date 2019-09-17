@@ -5,7 +5,7 @@ $(document).on('click', 'nav .navbar-nav li', function(){
 
 document.querySelector("#form--main").addEventListener("submit", passValue);
 function passValue() {
-    let locationA = document.querySelector("#firstlocation");
+let locationA = document.querySelector("#firstlocation");
 let locationB = document.querySelector("#input-a");
 let seatA = document.querySelector("#firstseat");
 let pickDA = document.querySelector("#datepicker");

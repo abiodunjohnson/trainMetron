@@ -21,7 +21,10 @@ let allRadios = document.querySelectorAll('.input--radio');
 function checkR(){
     for(let i=0; i < allRadios.length; i++){
      if(allRadios[i].checked){
-         document.querySelector('#price--total').textContent = allRadios[i].value * allPassB;
+         let totalPrice=  document.querySelector('#price--total')
+         totalPrice.textContent = allRadios[i].value * allPassB;
+         sessionStorage.setItem('origin6', totalPrice.textContent);
+         console.log(sessionStorage.getItem('origin6'));
          return i.textContent;
      }
  }
@@ -29,6 +32,13 @@ function checkR(){
  
  document.querySelector('.container--radio').addEventListener("click", checkR );
 
+ function total(){
+    let totalNumber = document.querySelector('#price--total');
+
+   
+ }
+ 
+ 
 
  // Getting to Passenger
 //  let totalPass = document.querySelector("#pass");

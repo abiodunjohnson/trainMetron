@@ -172,19 +172,45 @@ line-height: 100.23%;
     position:relative;
     left:-10px;
 }
+
+#val4 {
+    text-decoration: none;
+    color: #000000;
+}
+
 #bound{
     display:flex;
     justify-content: space-around;
 }
+
 #partition{
     position: relative;
     top:-27px;
 }
+
 #stop{
     position: relative;
     top:-34px;
     font-size: 13px;
     width:170px;
+    margin-left: 20px;
+}
+
+#from-pass, #to-pass, .junction {
+    text-decoration: none;
+    color: #52616B;
+    font-size: 12px;
+}
+
+#total--price {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#val2 {
+    color: #000000;
+    text-decoration: none;
 }
 span{
     text-decoration: underline;
@@ -194,8 +220,8 @@ span{
     width:85px;
     height: 40px;
     border: 1px solid #000000;
-box-sizing: border-box;
-border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
     top: 310px;
     position:relative;
 }

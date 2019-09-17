@@ -1,7 +1,7 @@
  passanger();
 
  function passanger(){
-     alert("passenger");
+     
 
      let passGo = sessionStorage.getItem("origin");
      let passTo = sessionStorage.getItem("origin2");

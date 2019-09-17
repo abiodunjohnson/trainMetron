@@ -107,6 +107,9 @@ color:#52616B;
     position:relative;
     left:30px;
 }
+.adult {
+    display: flex;
+}
 .border{
     width:320px;
 }

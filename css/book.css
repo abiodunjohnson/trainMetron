@@ -126,10 +126,19 @@ nav .navbar-nav li a {
   
 
   .span-img{
-   
-    
    margin-right: 30px;
     
+}
+
+.book{
+  width: 460px;
+height: 15px;
+left: 580px;
+top: 300px;
+border: 1px solid #52616B;
+}
+.add-text{
+  color: #518EF8;
 }
 
   #from-grp {
@@ -199,6 +208,22 @@ nav .navbar-nav li a {
 .image-detail {
   padding-top: 10px;
   
+}
+
+.right-below{
+  width: 350px;
+height: 80px;
+margin-top:70px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+
+.right-text{
+color: #52616B;
+font-size: 16px;
+width:150px;
+margin-left:95px;
+margin-top:70px;
 }
 
 

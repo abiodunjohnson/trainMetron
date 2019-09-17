@@ -54,7 +54,7 @@ top: 80px;
 .content{
     position: absolute;
 width: 380px;
-height: 263px;
+height: 303px;
 left: 530px;
 top: 143px;
 background: #FFFFFF;
@@ -78,7 +78,8 @@ border-radius: 4px;
 }
 #three{
     position:relative;
-    left:50px;
+    right:-270px;
+    bottom: 40px;
 }
 .place{
     font-weight: bold;
@@ -131,11 +132,11 @@ color:#52616B;
 }
 .total2{
     position:relative;
-    left:-30px;
+    left: -120px;
 }
 .submit{
     position:relative;
-    top:430px;
+    top:480px;
     left:515px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
 border-radius: 4px;

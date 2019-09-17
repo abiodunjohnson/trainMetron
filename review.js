@@ -1,7 +1,7 @@
 summary ();
 
 function summary() {
-    alert("review");
+   
 
    let reviewFrom = sessionStorage.getItem('origin');
    let reviewTo = sessionStorage.getItem('origin2');
@@ -9,6 +9,7 @@ function summary() {
    let reviewVal = sessionStorage.getItem('origin5');
    let totalPrice2 = sessionStorage.getItem('origin6');
    let totalPrice3 = sessionStorage.getItem('origin6');
+   let btnVal = sessionStorage.getItem('origin6');
 
     console.log(reviewFrom, reviewTo)
    document.querySelector("#review-from").textContent = reviewFrom
@@ -17,4 +18,5 @@ function summary() {
    document.querySelector("#val3").textContent = reviewVal;
    document.querySelector('#total2').textContent = totalPrice2;
    document.querySelector('#three').textContent = totalPrice3;
+   document.querySelector('#btn--val').textContent = btnVal;
 }

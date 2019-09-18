@@ -22,6 +22,14 @@ body {
     border: none;
   }
 
+  #signin:hover {
+    background-color: #28B446;
+  }
+
+  .nav-btn:hover {
+    background-color: #28B446;
+  }
+
   /* SIGNIN FORM */
 
   .signinupbgd {

@@ -161,8 +161,17 @@ line-height: 100.23%;
     font-size: 17px;
     line-height: 100.23%;
 }
-.btn{
+
+.btn-primary:hover {
+background-color: #28B446;
+}
+
+.btn {
     width:170px;
+}
+
+.btn:hover {
+    background-color: #28B446;
 }
 .rightdown-side{
     background-color: #ffffff;

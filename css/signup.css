@@ -130,6 +130,13 @@ border-radius: 4px;
       margin-top:1rem;
     width:467px;
   }
+  #signup:hover {
+    background-color: #28B446;
+  }
+
+  .sign-up-btn:hover {
+    background-color: #28B446;
+  }
   .or{
    
      margin-left: 14rem;
